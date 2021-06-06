@@ -39,9 +39,8 @@ C:\users\root\                    D:\Program Files\           E:\
 └── summerCrush.png                   └── autoexec.cfg
 ```
 
-> underLining your data is a backup solution - re-use old USB sticks to often back your data up & make it redundant!
-
 We now want to create a backup of some directories/files on a USB drive `G:\`
+> Re-use old USB sticks to often back your data up & make it redundant!
 
 Let's simply create a list of shortcuts pointing to the data we'd like to save
 

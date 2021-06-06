@@ -17,7 +17,9 @@ _ Re-take control of your manual backups _
 ```
   Data backups simply by creating shortcuts to the data you want to save
 ```
-  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool and allow you to make "semi-automated" backups in a matter of a few clicks. Reference your data with shortcuts once & always be one click away from synchronizing it all.
+> This project aims to mainstream data backups processes for people mostly familiar with GUIs on Windows.
+
+  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of `rsync`) and allow you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
 
 ## Usage
 ### Locate the data
@@ -58,7 +60,7 @@ G:\
 ### underLine the data
 Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it.
 
-All the data will be backed in the underLine directory `_` alongside with all the synchronization logs.
+All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
 
 ###### :bulb: Running the script is the backup action - remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
 

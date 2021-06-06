@@ -9,6 +9,8 @@ echo ERRORLEVEL %ERRORLEVEL%
 goto :EOF
 : end batch / begin PowerShell #>
 
+# github.com/gdepoyant/underline
+
 $backupDir = ".\_"
 $logsDir = ".\_\_"
 $sh = (New-Object -ComObject WScript.Shell)

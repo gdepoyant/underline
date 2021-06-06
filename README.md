@@ -17,9 +17,7 @@ _ Re-take control of your manual backups _
 ```
   Data backups simply by creating shortcuts to the data you want to save
 ```
-  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool and allow you to make "semi-automated" backups in a matter of a few clicks.
-  
-  Reference your data with shortcuts once & always be one click away from synchronizing it all.
+  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool and allow you to make "semi-automated" backups in a matter of a few clicks. Reference your data with shortcuts once & always be one click away from synchronizing it all.
 
 ## Usage
 ### Locate the data

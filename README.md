@@ -69,6 +69,8 @@ Your `G:\` drive should now look as such:
 ```
 G:\
 ├── _/
+├── ├── _/
+|   |   └── *.log
 |   ├── contracts/
 |   ├── importantScans/
 |   ├── Documents/

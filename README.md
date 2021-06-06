@@ -58,11 +58,7 @@ G:\
 ```
 
 ### underLine the data
-Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it.
-
-All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
-
-> Running the script is the backup action - remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
+Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
 
 Your `G:\` drive should now look as such:
 
@@ -89,6 +85,10 @@ G:\
 ├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> D:\Program Files\System backups\
 ```
+> Running the script is the backup action - backups are to the date of your last synchronization
+> 
+> Remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
+
 ## License
 
 [MIT © Guillaume Depoyant](LICENSE)

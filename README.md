@@ -1,6 +1,6 @@
 # [_______ underLine _______](https://raw.githubusercontent.com/gdepoyant/underline/main/_.cmd)
 ```
-___________ One File - No Instal ___________
+________ One File - No Installation ________
 ____ Manually & easily synchronize data ____
 __ Re-take control of your manual backups __
 ```

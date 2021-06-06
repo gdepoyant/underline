@@ -1,10 +1,3 @@
-# [_______ underLine _______](https://raw.githubusercontent.com/gdepoyant/underline/main/_.cmd)
-```
-________ One File - No Installation ________
-____ Manually & easily synchronize data ____
-__ Re-take control of your manual backups __
-```
-
 ## Table of Contents
 - [Donwload](#download)
 - [Concept](#concept)
@@ -12,7 +5,12 @@ __ Re-take control of your manual backups __
 - [License](#license)
 
 ## Download
-# [_______ underLine _______](https://raw.githubusercontent.com/gdepoyant/underline/main/_.cmd)
+### [______________ underLine ______________](https://raw.githubusercontent.com/gdepoyant/underline/main/_.cmd)
+```
+_______ One File - No Installation _______
+___ Manually & easily synchronize data ___
+_ Re-take control of your manual backups _
+```
 ###### :bulb: Follow the link & save the file  `ctrl-S` or `Settings` > `Save Page As`
 
 ## Concept
@@ -25,7 +23,7 @@ __ Re-take control of your manual backups __
 
 ## Usage
 ### Locate the data
-Let's assume we have several disks on a machine and several directories cross drives we'd like to backup.
+  Let's assume we have several disks on a machine and several directories cross drives we'd like to backup.
 
 ```
 C:\users\root\                    D:\Program Files\           E:\

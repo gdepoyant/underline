@@ -11,7 +11,7 @@ _______ One File - No Installation _______
 ___ Manually & easily synchronize data ___
 _ Re-take control of your manual backups _
 ```
-###### :bulb: Follow the link & save the file  `ctrl-S` or `Settings` > `Save Page As`
+> #####  Follow the link & either `ctrl-S` or `Settings` > `Save Page As`
 
 ## Concept
 ```
@@ -39,7 +39,7 @@ C:\users\root\                    D:\Program Files\           E:\
 └── summerCrush.png                   └── autoexec.cfg
 ```
 
-###### :bulb: underLining your data is a backup solution - re-use old USB sticks to often back your data up & make it redundant!
+> underLining your data is a backup solution - re-use old USB sticks to often back your data up & make it redundant!
 
 We now want to create a backup of some directories/files on a USB drive `G:\`
 
@@ -62,7 +62,7 @@ Copy the underLine command script `_.cmd` in the folder containing all the short
 
 All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
 
-###### :bulb: Running the script is the backup action - remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
+> Running the script is the backup action - remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
 
 Your `G:\` drive should now look as such:
 

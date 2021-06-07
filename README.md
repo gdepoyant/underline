@@ -9,27 +9,24 @@
 
 ## Concept
 ```
-      ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐
-      │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
-      │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
-      │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
-      └───┘     ┴   ┴     └┼──┘     ┴───┘     ┴  └┘     ┼───┘     ┴     ┴   ┴    ┴───┤
+   ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐
+   │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
+   │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
+   │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
+   └───┘     ┴   ┴     └┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘
+└──────────────────────────┬────────────────────────────┬────────────────────────────┐
                            │                            │                            │
 C:\users\root\             │      D:\Program Files\     │     E:\                    │
-├── Desktop/               │      ├── Text editor/      │     ├── System backups/    │
-│   ├── importantScans/    │      │   ├── src/          │     │   ───────────────────┤
-│   │   ───────────────────┤      │   ├── bin/          │     └── Shared network/    │
-│   ├── phoneNumbers.txt   │      │   ├── pluggins/     │       ├── contracts/       │
-│   │   ───────────────────┤      │   │   ──────────────┤       │   ─────────────────┘
-│   └── showerThoughts.txt │      │   └── config.cfg    │       ├── training/
-├── Documents/             │      └── Video game/       │       └── holidays.xls
-│   ───────────────────────┤          ├── src/          │
-├── Music/                 │          ├── bin/          │
-├── Pictures/              │          ├── replays/      │
-├── bestQuotesZen.txt      │          │   ──────────────┘
-│   ───────────────────────┘          └── autoexec.cfg
-├── meditation.mp3
-└── summerCrush.png
+├── Desktop/               │      ├── Text editor/      │     ├── System backups/____│
+│   ├── importantScans/____│      │   ├── bin/          │     └── Shared network/    │
+│   ├── phoneNumbers.txt___│      │   ├── pluggins/_____│         ├── contracts/_____│
+│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/
+├── Documents/             │      │   └── config.cfg    │         └── holidays.xls
+├── Music/                 │      └── Video game/       │
+├── Pictures/              │          ├── bin/          │
+├── bestQuotesZen.txt______│          ├── replays/______│
+├── meditation.mp3_________│          ├── src/
+└── summerBrunch.png                  └── autoexec.cfg
 ```
 
 ### Data backups simply by creating shortcuts to the data you want to save
@@ -52,15 +49,15 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 ```
 C:\users\root\                    D:\Program Files\           E:\
 ├── Desktop/                      ├── Text editor/            ├── System backups/
-|   ├── importantScans/           |   ├── src/                └── Shared network/
-|   ├── phoneNumbers.txt          |   ├── bin/                    ├── contracts/
-|   └── showerThoughts.txt        |   ├── pluggins/               ├── training/
-├── Documents/                    |   └── config.cfg              └── holidays.xls
+│   ├── importantScans/           │   ├── bin/                └── Shared network/
+│   ├── phoneNumbers.txt          │   ├── pluggins/               ├── contracts/
+│   └── showerThoughts.txt        │   ├── src/                    ├── training/
+├── Documents/                    │   └── config.cfg              └── holidays.xls
 ├── Music/                        └── Video game/
-├── Pictures/                         ├── src/
-├── bestQuotesZen.txt                 ├── bin/
-├── meditation.mp3                    ├── replays/
-└── summerCrush.png                   └── autoexec.cfg
+├── Pictures/                         ├── bin/
+├── bestQuotesZen.txt                 ├── replays/
+├── meditation.mp3                    ├── src/
+└── summerBrunch.png                  └── autoexec.cfg
 ```
 
 We now want to create a backup of some directories/files on a USB drive `G:\`
@@ -73,11 +70,11 @@ Let's simply create a list of shortcuts pointing to the data we'd like to save
 G:\
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
 ├── contracts               --> E:\Shared network\contracts\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
+├── importantScans          --> C:\users\root\Desktop\importantScans\
+├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> E:\System backups\
 ```
 
@@ -89,24 +86,24 @@ Your `G:\` drive should now look as such:
 ```
 G:\
 ├── _/
-|   ├── _/
-|   |   └── *.log
-|   ├── contracts/
-|   ├── importantScans/
-|   ├── Documents/
-|   ├── pluggins/
-|   ├── replays/
-|   ├── System backups/
-|   ├── bestQuotesZen.txt
-|   └── phoneNumbers.txt
+│   ├── _/
+│   │   └── *.log
+│   ├── contracts/
+│   ├── Documents/
+│   ├── importantScans/
+│   ├── pluggins/
+│   ├── replays/
+│   ├── System backups/
+│   ├── bestQuotesZen.txt
+│   └── phoneNumbers.txt
 ├── _.cmd
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
 ├── contracts               --> E:\Shared network\contracts\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
+├── importantScans          --> C:\users\root\Desktop\importantScans\
+├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> E:\System backups\
 ```
 > Running the script is the backup action - backups are up to the date of your last manual synchronization

@@ -77,7 +77,7 @@ G:\
 ├── replays                 --> D:\Program Files\Video game\replays\
 └── System backups          --> E:\System backups\
 ```
-:bulb: These shortcuts are actually the paths of the data pointed at in the [concept](#concept)'s ASCII art!
+:bulb: These shortcuts are actually the paths of the data underlined in the [concept](#concept)'s ASCII art!
 
 ### Synchronize the data
 Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.

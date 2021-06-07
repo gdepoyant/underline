@@ -43,7 +43,7 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 ####  Re-take control of your manual backups
 > Facilitate data backups processes for people mostly familiar with GUIs on Windows & pick up good practices
 
-  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of `rsync`) and allow you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
+  The underLine command wraps Windows' [robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of [rsync](https://linux.die.net/man/1/rsync)) and enables you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
 
 ## Usage
 ### Underline the data

@@ -106,9 +106,9 @@ G:\
 ├── replays                 --> D:\Program Files\Video game\replays\
 └── System backups          --> E:\System backups\
 ```
-> Running the script is the backup action - backups are up to the date of your last manual synchronization
+> Backups being manual they will be up to the date of your last manual synchronization
 
-:bulb: Remember to retrigger the underline command whenever you need to synchronize your data (or set it as a scheduled task)
+:bulb: Remember to manually run the underline command for syncing data or set it as a scheduled task!
 
 ## License
 

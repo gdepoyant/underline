@@ -4,17 +4,18 @@
 - [Usage](#usage)
 - [License](#license)
 
-## Download
-### [______________ underLine ______________](https://raw.githubusercontent.com/gdepoyant/underline/main/_.cmd)
-```
-_______ One File - No Installation _______
-___ Manually & easily synchronize data ___
-_ Re-take control of your manual backups _
-```
-> #####  Follow the link & either `ctrl-S` or `Settings` > `Save Page As`
+## [_____ underLine _____](https://github.com/gdepoyant/underline/raw/main/_.cmd)
 
 ## Concept
 ```
+  _______ One File - No Installation _______
+  ___ Manually & easily synchronize data ___
+  _ Re-take control of your manual backups _
+
+
+
+
+
   Data backups simply by creating shortcuts to the data you want to save
 ```
 > This project aims to mainstream data backups processes for people mostly familiar with GUIs on Windows.
@@ -47,13 +48,13 @@ Let's simply create a list of shortcuts pointing to the data we'd like to save
 ```
 G:\
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
-├── contracts               --> D:\Program Files\Shared network\contracts\
+├── contracts               --> E:\Shared network\contracts\
 ├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
 ├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
-└── System backups          --> D:\Program Files\System backups\
+└── System backups          --> E:\System backups\
 ```
 
 ### underLine the data
@@ -76,13 +77,13 @@ G:\
 |   └── phoneNumbers.txt
 ├── _.cmd
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
-├── contracts               --> D:\Program Files\Shared network\contracts\
+├── contracts               --> E:\Shared network\contracts\
 ├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
 ├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
-└── System backups          --> D:\Program Files\System backups\
+└── System backups          --> E:\System backups\
 ```
 > Running the script is the backup action - backups are to the date of your last synchronization
 > 

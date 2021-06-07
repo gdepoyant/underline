@@ -9,24 +9,24 @@
 
 ## Concept
 ```
-   ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐
-   │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
-   │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
-   │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
-   └───┘     ┴   ┴     └┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘
+   ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐   
+   │   │     │\  │      │  │     │         │   │     │         │     │\  │    │       
+   │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤     
+   │   │     │  \│      │  │     │         │  │      │         │     │  \│    │       
+   └───┘     ┴   ┴     └┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘   
 └──────────────────────────┬────────────────────────────┬────────────────────────────┐
                            │                            │                            │
 C:\users\root\             │      D:\Program Files\     │     E:\                    │
 ├── Desktop/               │      ├── Text editor/      │     ├── System backups/____│
 │   ├── importantScans/____│      │   ├── bin/          │     └── Shared network/    │
 │   ├── phoneNumbers.txt___│      │   ├── pluggins/_____│         ├── contracts/_____│
-│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/
-├── Documents/             │      │   └── config.cfg    │         └── holidays.xls
-├── Music/                 │      └── Video game/       │
-├── Pictures/              │          ├── bin/          │
-├── bestQuotesZen.txt______│          ├── replays/______│
-├── meditation.mp3_________│          ├── src/
-└── summerBrunch.png                  └── autoexec.cfg
+│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/       
+├── Documents/             │      │   └── config.cfg    │         └── holidays.xls    
+├── Music/                 │      └── Video game/       │                             
+├── Pictures/              │          ├── bin/          │                             
+├── bestQuotesZen.txt______│          ├── replays/______│                             
+├── meditation.mp3_________│          ├── src/                                        
+└── summerBrunch.png                  └── autoexec.cfg                                
 ```
 
 ### Data backups simply by creating shortcuts to the data you want to save

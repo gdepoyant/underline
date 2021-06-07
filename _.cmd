@@ -23,7 +23,8 @@ if(!(test-path $logsDir))
 [string[]]$Excludes = @("_", "_.cmd")
 Get-ChildItem . -Exclude $Excludes | ForEach-Object {
 
-	$targetpath = ($sh.CreateShortcut($_.FullName).TargetPath)
+	$fullname = $_.FullName
+	$targetpath = ($sh.CreateShortcut($fullname).TargetPath)
 	$targetname = (Split-Path $targetpath -leaf)
 	$targetisdir = (Test-Path -Path $targetpath -PathType Container)
 	$logfile = (Join-Path $logsDir $targetname) + ".log"
@@ -35,7 +36,7 @@ Get-ChildItem . -Exclude $Excludes | ForEach-Object {
 	}
 	else
 	{
-		robocopy  /s /z /j /np /ndl /tee /eta /log+:$logfile $targetpath (Join-Path $backupDir (Split-Path $targetpath -leaf))
+		robocopy  /s /z /j /np /ndl /tee /eta /log+:$logfile $targetpath (Join-Path $backupDir $targetname)
 	}
 }
 

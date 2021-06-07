@@ -1,29 +1,50 @@
 ## Table of Contents
-- [Donwload](#download)
 - [Concept](#concept)
 - [Usage](#usage)
 - [License](#license)
 
-## [_____ underLine _____](https://github.com/gdepoyant/underline/raw/main/_.cmd)
+## [UNDERLINE](https://github.com/gdepoyant/underline/raw/main/_.cmd)
 
 ## Concept
 ```
-  _______ One File - No Installation _______
-  ___ Manually & easily synchronize data ___
-  _ Re-take control of your manual backups _
-
-
-
-
-
-  Data backups simply by creating shortcuts to the data you want to save
+      ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐
+      │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
+      │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
+      │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
+      └───┘     ┴   ┴     └┼──┘     ┴───┘     ┴  └─     ┼───┘     ┴     ┴   ┴    ┴───┤
+                           │                            │                            │
+C:\users\root\             │      D:\Program Files\     │     E:\                    │
+├── Desktop/               │      ├── Text editor/      │     ├── System backups/    │
+│   ├── importantScans/    │      │   ├── src/          │     │   ───────────────────┤
+│   │   ───────────────────┤      │   ├── bin/          │     └── Shared network/    │
+│   ├── phoneNumbers.txt   │      │   ├── pluggins/     │       ├── contracts/       │
+│   │   ───────────────────┤      │   │   ──────────────┤       │   ─────────────────┘
+│   └── showerThoughts.txt │      │   └── config.cfg    │       ├── training/
+├── Documents/             │      └── Video game/       │       └── holidays.xls
+│   ───────────────────────┤          ├── src/          │
+├── Music/                 │          ├── bin/          │
+├── Pictures/              │          ├── replays/      │
+├── bestQuotesZen.txt      │          │   ──────────────┘
+│   ───────────────────────┘          └── autoexec.cfg
+├── meditation.mp3
+└── summerCrush.png
 ```
-> This project aims to mainstream data backups processes for people mostly familiar with GUIs on Windows.
+
+### Data backups simply by creating shortcuts to the data you want to save
+
+####  One file - no installation
+> Just download the underline command file & use it straight away
+
+####  Manually & easily synchronize data
+> Create rules using basic file/directory understanding
+
+####  Re-take control of your manual backups
+> Facilitate data backups processes for people mostly familiar with GUIs on Windows & pick up good practices
 
   The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of `rsync`) and allow you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
 
 ## Usage
-### Locate the data
+### Underline the data
   Let's assume we have several disks on a machine and several directories cross drives we'd like to backup.
 
 ```
@@ -41,9 +62,10 @@ C:\users\root\                    D:\Program Files\           E:\
 ```
 
 We now want to create a backup of some directories/files on a USB drive `G:\`
-> Re-use old USB sticks to often back your data up & make it redundant!
 
 Let's simply create a list of shortcuts pointing to the data we'd like to save
+
+> Re-use old USB sticks to often back your data up & make it redundant!
 
 ```
 G:\
@@ -57,7 +79,7 @@ G:\
 └── System backups          --> E:\System backups\
 ```
 
-### underLine the data
+### Synchronize the data
 Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
 
 Your `G:\` drive should now look as such:
@@ -65,7 +87,7 @@ Your `G:\` drive should now look as such:
 ```
 G:\
 ├── _/
-├── ├── _/
+|   ├── _/
 |   |   └── *.log
 |   ├── contracts/
 |   ├── importantScans/

@@ -13,7 +13,7 @@
       │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
       │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
       │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
-      └───┘     ┴   ┴     └┼──┘     ┴───┘     ┴  └─     ┼───┘     ┴     ┴   ┴    ┴───┤
+      └───┘     ┴   ┴     └┼──┘     ┴───┘     ┴  └┘     ┼───┘     ┴     ┴   ┴    ┴───┤
                            │                            │                            │
 C:\users\root\             │      D:\Program Files\     │     E:\                    │
 ├── Desktop/               │      ├── Text editor/      │     ├── System backups/    │
@@ -111,7 +111,7 @@ G:\
 ```
 > Running the script is the backup action - backups are up to the date of your last manual synchronization
 
-> Therefore remember to retrigger the underline command whenever you need to synchronize (or set it as a scheduled task)
+:bulb: Remember to retrigger the underline command whenever you need to synchronize your data (or set it as a scheduled task)
 
 ## License
 

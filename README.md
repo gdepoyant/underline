@@ -17,16 +17,16 @@
 └──────────────────────────┬────────────────────────────┬────────────────────────────┐
                            │                            │                            │
 C:\users\root\             │      D:\Program Files\     │     E:\                    │
-├── Desktop/               │      ├── Text editor/      │     ├── System backups/____│
-│   ├── importantScans/____│      │   ├── bin/          │     └── Shared network/    │
-│   ├── phoneNumbers.txt___│      │   ├── pluggins/_____│         ├── contracts/_____│
-│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/       
-├── Documents/             │      │   └── config.cfg    │         └── holidays.xls    
-├── Music/                 │      └── Video game/       │                             
-├── Pictures/              │          ├── bin/          │                             
-├── bestQuotesZen.txt______│          ├── replays/______│                             
-├── meditation.mp3_________│          ├── src/                                        
-└── summerBrunch.png                  └── autoexec.cfg                                
+╠══ Desktop/               │      ╠══ Text editor/      │     ╠══ System backups/____│
+║   ╠══ importantScans/____│      ║   ╠══ bin/          │     ╚══ Shared network/    │
+║   ╠══ phoneNumbers.txt___│      ║   ╠══ pluggins/_____│         ╠══ contracts/_____│
+║   ╚══ showerThoughts.txt │      ║   ╠══ src/          │         ╠══ training/       
+╠══ Documents/             │      ║   ╚══ config.cfg    │         ╚══ holidays.xls    
+╠══ Music/                 │      ╚══ Video game/       │                             
+╠══ Pictures/              │          ╠══ bin/          │                             
+╠══ bestQuotesZen.txt______│          ╠══ replays/______│                             
+╠══ meditation.mp3_________│          ╠══ src/                                        
+╚══ summerBrunch.png                  ╚══ autoexec.cfg                                
 ```
 
 ### Data backups simply by creating shortcuts to the data you want to save
@@ -48,16 +48,16 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 
 ```
 C:\users\root\                    D:\Program Files\           E:\
-├── Desktop/                      ├── Text editor/            ├── System backups/
-│   ├── importantScans/           │   ├── bin/                └── Shared network/
-│   ├── phoneNumbers.txt          │   ├── pluggins/               ├── contracts/
-│   └── showerThoughts.txt        │   ├── src/                    ├── training/
-├── Documents/                    │   └── config.cfg              └── holidays.xls
-├── Music/                        └── Video game/
-├── Pictures/                         ├── bin/
-├── bestQuotesZen.txt                 ├── replays/
-├── meditation.mp3                    ├── src/
-└── summerBrunch.png                  └── autoexec.cfg
+╠══ Desktop/                      ╠══ Text editor/            ╠══ System backups/
+║   ╠══ importantScans/           ║   ╠══ bin/                ╚══ Shared network/
+║   ╠══ phoneNumbers.txt          ║   ╠══ pluggins/               ╠══ contracts/
+║   ╚══ showerThoughts.txt        ║   ╠══ src/                    ╠══ training/
+╠══ Documents/                    ║   ╚══ config.cfg              ╚══ holidays.xls
+╠══ Music/                        ╚══ Video game/
+╠══ Pictures/                         ╠══ bin/
+╠══ bestQuotesZen.txt                 ╠══ replays/
+╠══ meditation.mp3                    ╠══ src/
+╚══ summerBrunch.png                  ╚══ autoexec.cfg
 ```
 
 We now want to create a backup of some directories/files on a USB drive `G:\`
@@ -68,14 +68,14 @@ Let's simply create a list of shortcuts pointing to the data we'd like to save
 
 ```
 G:\
-├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
-├── contracts               --> E:\Shared network\contracts\
-├── Documents               --> C:\users\root\Documents\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
-├── pluggins                --> D:\Program Files\Text editor\pluggins\
-├── replays                 --> D:\Program Files\Video game\replays\
-└── System backups          --> E:\System backups\
+╠══ bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
+╠══ contracts               --> E:\Shared network\contracts\
+╠══ Documents               --> C:\users\root\Documents\
+╠══ importantScans          --> C:\users\root\Desktop\importantScans\
+╠══ phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
+╠══ pluggins                --> D:\Program Files\Text editor\pluggins\
+╠══ replays                 --> D:\Program Files\Video game\replays\
+╚══ System backups          --> E:\System backups\
 ```
 :bulb: These shortcuts are actually the paths of the data underlined in the [concept](#concept)'s ASCII art!
 
@@ -86,26 +86,26 @@ Your `G:\` drive should now look as such:
 
 ```
 G:\
-├── _/
-│   ├── _/
-│   │   └── *.log
-│   ├── contracts/
-│   ├── Documents/
-│   ├── importantScans/
-│   ├── pluggins/
-│   ├── replays/
-│   ├── System backups/
-│   ├── bestQuotesZen.txt
-│   └── phoneNumbers.txt
-├── _.cmd
-├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
-├── contracts               --> E:\Shared network\contracts\
-├── Documents               --> C:\users\root\Documents\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
-├── pluggins                --> D:\Program Files\Text editor\pluggins\
-├── replays                 --> D:\Program Files\Video game\replays\
-└── System backups          --> E:\System backups\
+╠══ _/
+║   ╠══ _/
+║   ║   ╚══ *.log
+║   ╠══ contracts/
+║   ╠══ Documents/
+║   ╠══ importantScans/
+║   ╠══ pluggins/
+║   ╠══ replays/
+║   ╠══ System backups/
+║   ╠══ bestQuotesZen.txt
+║   ╚══ phoneNumbers.txt
+╠══ _.cmd
+╠══ bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
+╠══ contracts               --> E:\Shared network\contracts\
+╠══ Documents               --> C:\users\root\Documents\
+╠══ importantScans          --> C:\users\root\Desktop\importantScans\
+╠══ phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
+╠══ pluggins                --> D:\Program Files\Text editor\pluggins\
+╠══ replays                 --> D:\Program Files\Video game\replays\
+╚══ System backups          --> E:\System backups\
 ```
 > Backups being manual they will be up to the date of your last manual synchronization
 

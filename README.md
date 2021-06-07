@@ -109,9 +109,9 @@ G:\
 ├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> E:\System backups\
 ```
-> Running the script is the backup action - backups are to the date of your last synchronization
-> 
-> Remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
+> Running the script is the backup action - backups are up to the date of your last manual synchronization
+
+> Therefore remember to retrigger the underline command whenever you need to synchronize (or set it as a scheduled task)
 
 ## License
 

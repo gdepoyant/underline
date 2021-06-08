@@ -4,18 +4,18 @@
    │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤     
    │   │     │  \│      │  │     │         │  │      │         │     │  \│    │       
    └───┘     ┴   ┴     ─┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘   
-└──────────────────────────┬────────────────────────────┬────────────────────────────┐
-                           │                            │                            │
-C:\users\root\             │      D:\Program Files\     │     E:\                    │
-├── Desktop/               │      ├── Text editor/      │     ├── System backups/____│
-│   ├── importantScans/____│      │   ├── bin/          │     └── Shared network/    │
-│   ├── phoneNumbers.txt___│      │   ├── pluggins/_____│         ├── contracts/_____│
-│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/       
-├── Documents/             │      │   └── config.cfg    │         └── holidays.xls    
-├── Music/                 │      └── Video game/       │                             
-├── Pictures/              │          ├── bin/          │                             
-├── bestQuotesZen.txt______│          ├── replays/______│                             
-├── meditation.mp3_________│          ├── src/                                        
+└───────────────────────────┬───────────────────────────┬────────────────────────────┐
+                            │                           │                            │
+C:\users\root\              │     D:\Program Files\     │     E:\                    │
+├── Desktop/                │     ├── Text editor/      │     ├── System backups/____│
+│   ├── importantScans/_____│     │   ├── bin/          │     └── Shared network/    │
+│   ├── phoneNumbers.txt____│     │   ├── pluggins/_____│         ├── contracts/_____│
+│   └── showerThoughts.txt  │     │   ├── src/          │         ├── training/       
+├── Documents/              │     │   └── config.cfg    │         └── holidays.xls    
+├── Music/                  │     └── Video game/       │                             
+├── Pictures/               │         ├── bin/          │                             
+├── bestQuotesZen.txt_______│         ├── replays/______│                             
+├── meditation.mp3__________│         ├── src/                                        
 └── summerBrunch.png                  └── autoexec.cfg                                
 ```
 

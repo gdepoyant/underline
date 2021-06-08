@@ -1,13 +1,3 @@
-## Table of Contents
-- [Download](#underline)
-- [Concept](#concept)
-- [Usage](#usage)
-- [License](#license)
-
-## [UNDERLINE](https://github.com/gdepoyant/underline/raw/main/_.cmd)
-> Get the underline command `_.cmd` from this link
-
-## Concept
 ```
    ┬   ┬     ┬   ┬     ─┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐   
    │   │     │\  │      │  │     │         │   │     │         │     │\  │    │       
@@ -28,6 +18,18 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 ├── meditation.mp3_________│          ├── src/                                        
 └── summerBrunch.png                  └── autoexec.cfg                                
 ```
+
+## Index
+- [Download](#download)
+- [Concept](#concept)
+- [Usage](#usage)
+- [License](#license)
+
+## Download
+[UNDERLINE](https://github.com/gdepoyant/underline/raw/main/_.cmd)
+> Get the underline command `_.cmd` from this link
+
+## Concept
 
 ### Data backups simply by creating shortcuts to the data you want to save
 
@@ -77,10 +79,10 @@ G:\
 ├── replays                 --> D:\Program Files\Video game\replays\
 └── System backups          --> E:\System backups\
 ```
-:bulb: These shortcuts are actually the paths of the data underlined in the [concept](#concept)'s ASCII art!
+:bulb: These shortcuts are actually the paths of the data underlined in the ASCII art! (above the [index](#index) - head of this file) 
 
 ### Synchronize the data
-Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
+Copy the underline command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underline directory `_/` alongside with all the synchronization logs.
 
 Your `G:\` drive should now look as such:
 

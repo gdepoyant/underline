@@ -5,16 +5,16 @@
    │   │     │  \│      │  │     │         │  │      │         │     │  \│    │       
    └───┘     ┴   ┴     ─┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘   
 └───────────────────────────┬───────────────────────────┬────────────────────────────┐
-                            │                           │                            │
-C:\users\root\              │     D:\Program Files\     │     E:\                    │
-├── Desktop/                │     ├── Text editor/      │     ├── System backups/____│
-│   ├── importantScans/_____│     │   ├── bin/          │     └── Shared network/    │
-│   ├── phoneNumbers.txt____│     │   ├── pluggins/_____│         ├── contracts/_____│
-│   └── showerThoughts.txt  │     │   ├── src/          │         ├── training/       
-├── Documents/______________│     │   └── config.cfg    │         └── holidays.xls    
-├── Music/                  │     └── Video game/       │                             
-├── Pictures/               │         ├── bin/          │                             
-├── bestQuotesZen.txt_______│         ├── replays/______│                             
+                            |                           |                            |
+C:\users\root\              |     D:\Program Files\     |     E:\                    |
+├── Desktop/                |     ├── Text editor/      |     ├── ̲S̲y̲s̲t̲e̲m̲ ̲b̲a̲c̲k̲u̲p̲s̲/̲ ̲ ̲ ̲ ̲|
+│   ├── ̲i̲m̲p̲o̲r̲t̲a̲n̲t̲S̲c̲a̲n̲s̲/̲ ̲ ̲ ̲ ̲ ̲|     │   ├── bin/          |     └── Shared network/    |
+│   ├── ̲p̲h̲o̲n̲e̲N̲u̲m̲b̲e̲r̲s̲.̲t̲x̲t̲ ̲ ̲ ̲ ̲|     │   ├── ̲p̲l̲u̲g̲g̲i̲n̲s̲/̲ ̲ ̲ ̲ ̲ ̲|         ├── ̲c̲o̲n̲t̲r̲a̲c̲t̲s̲/̲ ̲ ̲ ̲ ̲ ̲|
+│   └── showerThoughts.txt  |     │   ├── src/          |         ├── training/       
+├── ̲D̲o̲c̲u̲m̲e̲n̲t̲s̲/̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲|     │   └── config.cfg    |         └── holidays.xls    
+├── Music/                  |     └── Video game/       |                             
+├── Pictures/               |         ├── bin/          |                             
+├── ̲b̲e̲s̲t̲Q̲u̲o̲t̲e̲s̲Z̲e̲n̲.̲t̲x̲t̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲|         ├── ̲r̲e̲p̲l̲a̲y̲s̲/̲ ̲ ̲ ̲ ̲ ̲ ̲|                             
 ├── meditation.mp3                    ├── src/                                        
 └── summerBrunch.png                  └── autoexec.cfg                                
 ```

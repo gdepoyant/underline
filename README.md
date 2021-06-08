@@ -11,11 +11,11 @@ C:\users\root\              │     D:\Program Files\     │     E:\           
 │   ├── importantScans/_____│     │   ├── bin/          │     └── Shared network/    │
 │   ├── phoneNumbers.txt____│     │   ├── pluggins/_____│         ├── contracts/_____│
 │   └── showerThoughts.txt  │     │   ├── src/          │         ├── training/       
-├── Documents/              │     │   └── config.cfg    │         └── holidays.xls    
+├── Documents/______________│     │   └── config.cfg    │         └── holidays.xls    
 ├── Music/                  │     └── Video game/       │                             
 ├── Pictures/               │         ├── bin/          │                             
 ├── bestQuotesZen.txt_______│         ├── replays/______│                             
-├── meditation.mp3__________│         ├── src/                                        
+├── meditation.mp3                    ├── src/                                        
 └── summerBrunch.png                  └── autoexec.cfg                                
 ```
 

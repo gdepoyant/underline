@@ -1,34 +1,35 @@
-## Table of Contents
+```
+   ┬   ┬     ┬   ┬     ─┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐   
+   │   │     │\  │      │  │     │         │   │     │         │     │\  │    │       
+   │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤     
+   │   │     │  \│      │  │     │         │  │      │         │     │  \│    │       
+   └───┘     ┴   ┴     ─┴──┘     ┴───┘     ┴  └┘     ┴───┘     ┴     ┴   ┴    ┴───┘   
+└──────────────────────────┬────────────────────────────┬────────────────────────────┐
+                           │                            │                            │
+C:\users\root\             │      D:\Program Files\     │     E:\                    │
+├── Desktop/               │      ├── Text editor/      │     ├── System backups/____│
+│   ├── importantScans/____│      │   ├── bin/          │     └── Shared network/    │
+│   ├── phoneNumbers.txt___│      │   ├── pluggins/_____│         ├── contracts/_____│
+│   └── showerThoughts.txt │      │   ├── src/          │         ├── training/       
+├── Documents/             │      │   └── config.cfg    │         └── holidays.xls    
+├── Music/                 │      └── Video game/       │                             
+├── Pictures/              │          ├── bin/          │                             
+├── bestQuotesZen.txt______│          ├── replays/______│                             
+├── meditation.mp3_________│          ├── src/                                        
+└── summerBrunch.png                  └── autoexec.cfg                                
+```
+
+## Index
+- [Download](#download)
 - [Concept](#concept)
 - [Usage](#usage)
 - [License](#license)
 
-## [UNDERLINE](https://github.com/gdepoyant/underline/raw/main/_.cmd)
+## Download
+[UNDERLINE](https://github.com/gdepoyant/underline/raw/main/_.cmd)
+> Get the underline command `_.cmd` from this link
 
 ## Concept
-```
-      ┬   ┬     ┬   ┬     ┌┬──┐     ┬───┐     ┬───┐     ┬         ┬     ┬   ┬    ┬───┐
-      │   │     │\  │      │  │     │         │   │     │         │     │\  │    │
-      │   │     │ \ │      │  │     ├─┤       ├──┬┘     │         │     │ \ │    ├─┤
-      │   │     │  \│      │  │     │         │  │      │         │     │  \│    │
-      └───┘     ┴   ┴     └┼──┘     ┴───┘     ┴  └─     ┼───┘     ┴     ┴   ┴    ┴───┤
-                           │                            │                            │
-C:\users\root\             │      D:\Program Files\     │     E:\                    │
-├── Desktop/               │      ├── Text editor/      │     ├── System backups/    │
-│   ├── importantScans/    │      │   ├── src/          │     │   ───────────────────┤
-│   │   ───────────────────┤      │   ├── bin/          │     └── Shared network/    │
-│   ├── phoneNumbers.txt   │      │   ├── pluggins/     │       ├── contracts/       │
-│   │   ───────────────────┤      │   │   ──────────────┤       │   ─────────────────┘
-│   └── showerThoughts.txt │      │   └── config.cfg    │       ├── training/
-├── Documents/             │      └── Video game/       │       └── holidays.xls
-│   ───────────────────────┤          ├── src/          │
-├── Music/                 │          ├── bin/          │
-├── Pictures/              │          ├── replays/      │
-├── bestQuotesZen.txt      │          │   ──────────────┘
-│   ───────────────────────┘          └── autoexec.cfg
-├── meditation.mp3
-└── summerCrush.png
-```
 
 ### Data backups simply by creating shortcuts to the data you want to save
 
@@ -39,9 +40,9 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 > Create rules using basic file/directory understanding
 
 ####  Re-take control of your manual backups
-> Facilitate data backups processes for people mostly familiar with GUIs on Windows & pick up good practices
+> Facilitate data backups processes for **Windows** users
 
-  The underLine command wraps Windows' [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of `rsync`) and allow you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
+  The underline command wraps Windows' [robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy) tool (Linux equivalent of [rsync](https://linux.die.net/man/1/rsync)) and enables you to make "semi-automated" backups in a matter of a few clicks - reference your data with shortcuts once & always be one click away from synchronizing it all.
 
 ## Usage
 ### Underline the data
@@ -50,15 +51,15 @@ C:\users\root\             │      D:\Program Files\     │     E:\           
 ```
 C:\users\root\                    D:\Program Files\           E:\
 ├── Desktop/                      ├── Text editor/            ├── System backups/
-|   ├── importantScans/           |   ├── src/                └── Shared network/
-|   ├── phoneNumbers.txt          |   ├── bin/                    ├── contracts/
-|   └── showerThoughts.txt        |   ├── pluggins/               ├── training/
-├── Documents/                    |   └── config.cfg              └── holidays.xls
+│   ├── importantScans/           │   ├── bin/                └── Shared network/
+│   ├── phoneNumbers.txt          │   ├── pluggins/               ├── contracts/
+│   └── showerThoughts.txt        │   ├── src/                    ├── training/
+├── Documents/                    │   └── config.cfg              └── holidays.xls
 ├── Music/                        └── Video game/
-├── Pictures/                         ├── src/
-├── bestQuotesZen.txt                 ├── bin/
-├── meditation.mp3                    ├── replays/
-└── summerCrush.png                   └── autoexec.cfg
+├── Pictures/                         ├── bin/
+├── bestQuotesZen.txt                 ├── replays/
+├── meditation.mp3                    ├── src/
+└── summerBrunch.png                  └── autoexec.cfg
 ```
 
 We now want to create a backup of some directories/files on a USB drive `G:\`
@@ -71,45 +72,46 @@ Let's simply create a list of shortcuts pointing to the data we'd like to save
 G:\
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
 ├── contracts               --> E:\Shared network\contracts\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
+├── importantScans          --> C:\users\root\Desktop\importantScans\
+├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> E:\System backups\
 ```
+:bulb: These shortcuts are actually the paths of the data underlined in the ASCII art! (above the [index](#index) - head of this file) 
 
 ### Synchronize the data
-Copy the underLine command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underLine directory `_/` alongside with all the synchronization logs.
+Copy the underline command script `_.cmd` in the folder containing all the shortcuts & run it. All the data will be backed in the underline directory `_/` alongside with all the synchronization logs.
 
 Your `G:\` drive should now look as such:
 
 ```
 G:\
 ├── _/
-|   ├── _/
-|   |   └── *.log
-|   ├── contracts/
-|   ├── importantScans/
-|   ├── Documents/
-|   ├── pluggins/
-|   ├── replays/
-|   ├── System backups/
-|   ├── bestQuotesZen.txt
-|   └── phoneNumbers.txt
+│   ├── _/
+│   │   └── *.log
+│   ├── contracts/
+│   ├── Documents/
+│   ├── importantScans/
+│   ├── pluggins/
+│   ├── replays/
+│   ├── System backups/
+│   ├── bestQuotesZen.txt
+│   └── phoneNumbers.txt
 ├── _.cmd
 ├── bestQuotesZen.txt       --> C:\users\root\bestQuotesZen.txt
 ├── contracts               --> E:\Shared network\contracts\
-├── importantScans          --> C:\users\root\Desktop\importantScans\
 ├── Documents               --> C:\users\root\Documents\
+├── importantScans          --> C:\users\root\Desktop\importantScans\
+├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 ├── pluggins                --> D:\Program Files\Text editor\pluggins\
 ├── replays                 --> D:\Program Files\Video game\replays\
-├── phoneNumbers.txt        --> C:\users\root\Desktop\phoneNumbers.txt
 └── System backups          --> E:\System backups\
 ```
-> Running the script is the backup action - backups are to the date of your last synchronization
-> 
-> Remember to manually retrigger the command whenever you need to synchronize (or run it as a scheduled task)
+> Backups being manual they will be up to the date of your last manual synchronization
+
+:bulb: Remember to manually run the underline command for syncing data or set it as a scheduled task!
 
 ## License
 

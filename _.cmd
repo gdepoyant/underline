@@ -13,6 +13,7 @@ goto :EOF
 
 $backupDir = ".\_"
 $logsDir = ".\_\_"
+$scriptDir = (Get-Item .).FullName
 $sh = (New-Object -ComObject WScript.Shell)
 
 if(!(test-path $logsDir))
@@ -32,12 +33,14 @@ Get-ChildItem . -Exclude $Excludes | ForEach-Object {
 	if(!($targetisdir))
 	{
 		$parent = (Split-Path $targetpath -Parent)
-		robocopy  /s /z /j /np /ndl /tee /eta /log+:$logfile $parent $backupDir $targetname
+		robocopy  /s /z /j /np /ndl /tee /log+:$logfile $parent $backupDir $targetname /xd $scriptDir
 	}
 	else
 	{
-		robocopy  /s /z /j /np /ndl /tee /eta /log+:$logfile $targetpath (Join-Path $backupDir $targetname)
+		robocopy  /s /z /j /np /ndl /tee /log+:$logfile $targetpath (Join-Path $backupDir $targetname) /xd $scriptDir
 	}
 }
 
 pause
+
+# EOF

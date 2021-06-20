@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">	
+		
+		<style>
+			.parent {
+			  position: relative;
+			}
+			.box0 {
+			  position: relative;
+			}
+			
+			.box1 {
+			  position: absolute;
+			  padding-top: 40px;
+			  padding-left: 20px;
+			}
+			.box2 {
+			  position: absolute;
+			  padding-top: 40px;
+			  padding-left: 55px;
+			}
+			.box3 {
+			  position: absolute;
+			  padding-top: 40px;
+			  padding-left: 90px;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-hstack justify-center">
+							<img data-id="box1" src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+							<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+							<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						</div>
+						<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
+					</section>
+					
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+						<div class="r-hstack justify-center">
+							<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+							<img src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+							<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						</div>
+						<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
+						<div class="parent">
+							<div>
+								<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
+								<img data-id="box2" src="./svg/archive.svg" style="height: 30px; background: transparent;" class="box2">
+								<img data-id="box3" src="./svg/document.svg" style="height: 30px; background: transparent;" class="box3">
+								<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 0 auto; background: transparent;" class="box0">
+							</div>
+						</div>
+					</section>
+				</section>
+				</section>
+				</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

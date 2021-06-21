@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/solarized.css">
-
+		
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">	
 		
@@ -23,17 +23,17 @@
 			
 			.box1 {
 			  position: absolute;
-			  padding-top: 40px;
+			  padding-top: 45px;
 			  padding-left: 20px;
 			}
 			.box2 {
 			  position: absolute;
-			  padding-top: 40px;
+			  padding-top: 45px;
 			  padding-left: 55px;
 			}
 			.box3 {
 			  position: absolute;
-			  padding-top: 40px;
+			  padding-top: 45px;
 			  padding-left: 90px;
 			}
 		</style>
@@ -42,35 +42,94 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-						<div class="r-hstack justify-center">
-							<img data-id="box1" src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-							<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-							<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-						</div>
-						<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
-					</section>
-					
-					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-						<div class="r-hstack justify-center">
-							<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-							<img src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-							<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
-						</div>
-						<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
-						<div class="parent">
-							<div>
-								<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
-								<img data-id="box2" src="./svg/archive.svg" style="height: 30px; background: transparent;" class="box2">
-								<img data-id="box3" src="./svg/document.svg" style="height: 30px; background: transparent;" class="box3">
-								<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 0 auto; background: transparent;" class="box0">
-							</div>
-						</div>
-					</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<img data-id="box1" src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+					</div>
+					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
 				</section>
+				
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						<img src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+						<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
+					</div>
+					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
+					<div class="parent">
+						<div>
+							<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
+							<img data-id="box2" src="./svg/archive.svg" style="height: 30px; background: transparent;" class="box2">
+							<img data-id="box3" src="./svg/document.svg" style="height: 30px; background: transparent;" class="box3">
+							<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 0 auto; background: transparent;" class="box0">
+						</div>
+					</div>
 				</section>
+				<section data-auto-animate>
+					<h3 data-id="console">Place the <b>underline</b> script in the backup location</h3>
+					<pre data-id="console-animation">
+						<code data-trim data-noescape data-trim class="lang-less">
+							G:\
+							└── _.cmd
+						</code>
+					</pre>
+					<blockquote>
+						Download the latest <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd"><b>_.cmd</b></a> script
+					</blockquote>
+					<blockquote>
+						Place it on a USB stick
+						<br/>
+						- or anywhere -
+						<br/>
+						Just make your data redundant!
+					</blockquote>
 				</section>
+				<section data-auto-animate>
+					<h3 data-id="console">Link the directory to the desired data to backup</h3>
+					<pre data-id="console-animation">
+						<code data-trim data-noescape data-trim class="lang-less">
+							G:\
+							├── _.cmd
+							├── Documents        -->  C:\users\root\Documents\
+							├── Pictures         -->  C:\users\root\Pictures\
+							├── Backups          -->  E:\Backups\
+							└── todo.txt         -->  D:\users\root\todo.txt
+						</code>
+					</pre>
+					<blockquote>
+						Locate the data you want to backup
+					</blockquote>
+					<blockquote>
+						Create <a href="https://en.wikipedia.org/wiki/Shortcut_(computing)">shortcuts</a> to these locations
+					</blockquote>
+				</section>
+				<section data-auto-animate>
+					<h3 data-id="console">Execute the <b>underline</b> script to backup data</h3>
+					<pre data-id="console-animation">
+						<code data-trim data-noescape class="lang-less">
+							G:\
+							├── _/
+							│   ├── Documents/
+							│   ├── Pictures/
+							│   ├── Backups/
+							│   └── todo.txt
+							├── _.cmd
+							├── Documents        -->  C:\users\root\Documents\
+							├── Pictures         -->  C:\users\root\Pictures\
+							├── Backups          -->  E:\Backups\
+							└── todo.txt         -->  D:\users\root\todo.txt
+						</code>
+					</pre>
+					<blockquote>
+						Execute the <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd"><b>_.cmd</b></a> script to sync data
+					</blockquote>
+					<blockquote>
+						Re-run the script for manual re-sync
+						<br/>
+						or automate it (through planified tasks)
+					</blockquote>
 				</section>
 			</div>
 		</div>

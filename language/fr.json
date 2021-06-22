@@ -18,7 +18,7 @@
 		},
 		"desc5": {
 			"title05": "Exécutez le script pour sauvegarder vos données",
-			"description05": "Exécutez le script <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> pour synchronizer vos données<br>...ou automatisez les synchronizations par les tâches planifiées"
+			"description05": "Exécutez le script <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> pour synchroniser vos données<br>...ou automatisez les synchronisations par les tâches planifiées"
 		}
 	}
 }

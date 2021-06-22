@@ -36,28 +36,48 @@
 			  padding-top: 45px;
 			  padding-left: 90px;
 			}
+			.reveal blockquote {
+			  font-size: 24px;
+			  background: rgba(0, 0, 0, 0.05)
+			}
+			.lang {min-width:0;min-height:0;-o-object-fit:contain;object-fit:contain}
 		</style>
-		
+
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro1">
+					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
 					<div class="r-hstack justify-center">
 						<img data-id="box1" src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
-					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
+					<h3 id="title" data-i18n="title01">Data synchronization portable tool for Windows</h3>
+					<div id="langselector" class="langchooser">
+						<label>
+							<input id="lang-en" type="radio" name="menulangradios" style="display: none;" value="en" checked>
+							<input id="lang-fr" type="radio" name="menulangradios" style="display: none;" value="fr">
+						</label>
+					</div>
+					<div class="r-hstack justify-center">
+						<img src="./svg/uk.svg" style="height: 60px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
+						<img src="./svg/fr.svg" style="height: 60px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
+					</div>
+	
 				</section>
 				
-				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro2">
 					<div class="r-hstack justify-center">
 						<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
 					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
+						<h4 data-i18n="title02">
+							No installation required - backing up made simple
+						</h4>
 					<div class="parent">
 						<div>
 							<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
@@ -67,27 +87,25 @@
 						</div>
 					</div>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="desc3">
 					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
-					<h3 data-id="console">Place the underline command in the backup folder</h3>
+					<h3 data-id="console" data-i18n="title03">Place the underline command in the backup folder</h3>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape data-trim class="lang-less">
 							G:\
 							└── _.cmd
 						</code>
 					</pre>
-					<blockquote>
+					<blockquote data-i18n="description03a">
 						Download the latest <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd">_.cmd</a> script
 					</blockquote>
-					<blockquote>
-						Place it on a USB stick (or elsewhere)
-						<br/>
-						Learn to make your data redundant!
+					<blockquote data-i18n="description03b">
+						Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!
 					</blockquote>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="desc4">
 					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
-					<h3 data-id="console">Link the backup folder to the data</h3>
+					<h3 data-id="console" data-i18n="title04">Link the backup folder to the data</h3>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape data-trim class="lang-less">
 							G:\
@@ -98,18 +116,16 @@
 							└── todo.txt ------>  E:\storage\todo.txt
 						</code>
 					</pre>
-					<blockquote>
+					<blockquote data-i18n="description04a">
 						Locate the data you want to backup
 					</blockquote>
-					<blockquote>
-						Create <a href="https://en.wikipedia.org/wiki/Shortcut_(computing)">shortcuts</a> to these locations
-						<br/>
-						(alongside the underline command)
+					<blockquote data-i18n="description04b">
+						Create <a href="https://en.wikipedia.org/wiki/Shortcut_(computing)">shortcuts</a> to these locations<br/>(alongside the underline command)
 					</blockquote>
 				</section>
-				<section data-auto-animate>
+				<section data-auto-animate id="desc5">
 					<h2><a href="https://github.com/gdepoyant/underline">UNDERLINE</a></h2>
-					<h3 data-id="console">Execute the underline command to backup data</h3>
+					<h3 data-id="console" data-i18n="title05">Execute the underline command to backup data</h3>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape class="lang-less">
 							G:\
@@ -125,10 +141,8 @@
 							    └── todo.txt
 						</code>
 					</pre>
-					<blockquote>
-						Execute the <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd"><b>_.cmd</b></a> script to backup data 
-						<br/>
-						...or automate it through planified tasks
+					<blockquote data-i18n="description05">
+						Execute the <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd"><b>_.cmd</b></a> script to backup data<br/>...or automate it through planified tasks
 					</blockquote>
 				</section>
 			</div>
@@ -138,6 +152,7 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/internation/internation.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -145,8 +160,23 @@
 			Reveal.initialize({
 				hash: true,
 
+				    internation: {
+						languages: {
+							fr: {
+								name: "Français",
+								dictionary: "fr.json"
+							},
+							en: {
+								name: "English",
+								dictionary: "en.json"
+							},
+							
+						}
+					},
+
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
+
 			});
 		</script>
 	</body>

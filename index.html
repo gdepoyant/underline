@@ -40,7 +40,9 @@
 			  font-size: 24px;
 			  background: rgba(0, 0, 0, 0.05)
 			}
-			.lang {min-width:0;min-height:0;-o-object-fit:contain;object-fit:contain}
+			.nolangyet {
+			  opacity: 0.1;
+			}
 		</style>
 
 	</head>
@@ -56,14 +58,15 @@
 					</div>
 					<h3 id="title" data-i18n="title01">Data synchronization portable tool for Windows</h3>
 					<div id="langselector" class="langchooser">
-						<label>
-							<input id="lang-en" type="radio" name="menulangradios" style="display: none;" value="en" checked>
-							<input id="lang-fr" type="radio" name="menulangradios" style="display: none;" value="fr">
-						</label>
+						<input id="lang-en" type="radio" name="menulangradios" style="display: none;" value="en" checked>
+						<input id="lang-fr" type="radio" name="menulangradios" style="display: none;" value="fr">
 					</div>
 					<div class="r-hstack justify-center">
-						<img src="./svg/uk.svg" style="height: 60px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
-						<img src="./svg/fr.svg" style="height: 60px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
+						<img src="./svg/uk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
+						<img src="./svg/ge.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-ge').click();return false;" class="nolangyet" >
+						<img src="./svg/dk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-dk').click();return false;" class="nolangyet" >
+						<img src="./svg/nl.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-de').click();return false;" class="nolangyet" >
+						<img src="./svg/fr.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
 					</div>
 	
 				</section>
@@ -163,7 +166,7 @@
 				    internation: {
 						languages: {
 							fr: {
-								name: "Français",
+								name: "French",
 								dictionary: "language/fr.json"
 							},
 							en: {
@@ -171,7 +174,20 @@
 								dictionary: "language/en.json"
 							},
 							
-						}
+							ge: {
+								name: "German",
+								dictionary: "language/ge.json"
+							},
+							dk: {
+								name: "Danish",
+								dictionary: "language/dk.json"
+							},
+							
+							nl: {
+								name: "Dutch",
+								dictionary: "language/nl.json"
+							},
+						},
 					},
 
 				// Learn about plugins: https://revealjs.com/plugins/

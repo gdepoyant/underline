@@ -8,7 +8,7 @@
 		},
 		"desc3": {
 			"title03": "Place the underline command in the backup folder",
-			"description03a": "Download the latest <a href='https://github.com/gdepoyant/underline/raw/main/_.cmd' target='_blank'>_.cmd</a> script",
+			"description03a": "Download the latest <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script",
 			"description03b": "Place it on a USB stick (or elsewhere)<br>Learn to make your data redundant!"
 		},
 		"desc4": {
@@ -18,7 +18,7 @@
 		},
 		"desc5": {
 			"title05": "Execute the underline command to backup data",
-			"description05": "Execute the <a href='https://github.com/gdepoyant/underline/raw/main/_.cmd' target='_blank'><b>_.cmd</b></a> script to backup data<br>...or automate it through planified tasks"
+			"description05": "Execute the <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\"><b>_.cmd</b></a> script to backup data<br>...or automate it through planified tasks"
 		}
 	}
 }

@@ -1,3 +1,24 @@
 {
-	"test": "ENGLISH"
+	"slides": {
+		"intro1": {
+			"title01": "Data backup portable tool for Windows"
+		},
+		"intro2": {
+			"title02": "No installation required - Backing up made simple"
+		},
+		"desc3": {
+			"title03": "Place the underline command in the backup folder",
+			"description03a": "Download the latest <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\">_.cmd</a> script",
+			"description03b": "Place it on a USB stick (or elsewhere)<br>Learn to make your data redundant!"
+		},
+		"desc4": {
+			"title04": "Link the backup folder to the data",
+			"description04a": "Locate the data you want to backup",
+			"description04b": "Create <a href=\"https://en.wikipedia.org/wiki/Shortcut_(computing)\">shortcuts</a> to these locations<br>(alongside the underline command)"
+		},
+		"desc5": {
+			"title05": "Execute the underline command to backup data",
+			"description05": "Execute the <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\"><b>_.cmd</b></a> script to backup data<br>...or automate it through planified tasks"
+		}
+	}
 }

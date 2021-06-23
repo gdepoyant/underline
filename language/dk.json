@@ -17,7 +17,7 @@
 			"description04b": "Opret genveje til disse steder<br>(ved siden af underline kommandoen)"
 		},
 		"desc5": {
-			"title05": "Udfør underline kommandoen for at sikkerhedskopiere data ",
+			"title05": "Udfør underline scriptet for at kopiere din data",
 			"description05": "Udfør <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> scriptet for at sikkerhedskopiere data<br>...eller automatiser det gennem opgavestyring"
 		}
 	}

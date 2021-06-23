@@ -1,0 +1,24 @@
+{
+	"slides": {
+		"intro1": {
+			"title01": "Gegevenssynchronisatietool voor Windows"
+		},
+		"intro2": {
+			"title02": "Geen installatie nodig - Gegevensbackups eenvoudig gemaakt"
+		},
+		"desc3": {
+			"title03": "Plaats het underline script in de backup map",
+			"description03a": "Download het nieuwste <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script",
+			"description03b": "Plaats het op een USB stick (of elders )<br>Leer om jouw gegevens overvloedig te maken!"
+		},
+		"desc4": {
+			"title04": "Link de backup map aan de gegevens",
+			"description04a": "Vind de gegevens die je wil back-uppen",
+			"description04b": "Maak koppelingen naar deze gegevens<br>(naast het underline script)"
+		},
+		"desc5": {
+			"title05": "Voer het underline script uit en backup je gegevens",
+			"description05": "Voer het <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script uit<br>...of automatiseer het met geplande taken"
+		}
+	}
+}

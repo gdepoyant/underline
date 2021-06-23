@@ -1,0 +1,24 @@
+{
+	"slides": {
+		"intro1": {
+			"title01": "Datensynchronisierungstool für Windows"
+		},
+		"intro2": {
+			"title02": "Keine Installation nötig - Datensicherung einfach gemacht"
+		},
+		"desc3": {
+			"title03": "Platze den underline Skript in den Sicherungsordner",
+			"description03a": "Lade den aktuellen <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> Skript runter",
+			"description03b": "Platze ihn auf ein Speicherstift (oder woanders)<br>Lerne deine Daten redundant zu machen!"
+		},
+		"desc4": {
+			"title04": "Verknüpfe die Daten im Sicherungsorder",
+			"description04a": "Finde sicherungsnötige Daten",
+			"description04b": "Erstelle Verknüpfungen dahin im Sicherungsordner<br>(neben dem underline Skript)"
+		},
+		"desc5": {
+			"title05": "Führe den underline Skript aus um die Daten zu sichern",
+			"description05": "Führe den <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> Skript manuell aus<br>...oder automasiere ihn!"
+		}
+	}
+}

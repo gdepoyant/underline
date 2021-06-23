@@ -1,0 +1,24 @@
+{
+	"slides": {
+		"intro1": {
+			"title01": "Datasynkroniseringsværktøj for Windows"
+		},
+		"intro2": {
+			"title02": "Ingen installation påkrævet - Simple sikkerhedskopiering"
+		},
+		"desc3": {
+			"title03": "Placer underline kommandoen i sikkerhedskopimappen",
+			"description03a": "Download det nyeste <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script",
+			"description03b": "Gem det på en USB-nøgle (eller andre steder)<br>Lær at gøre dine data overflødige! "
+		},
+		"desc4": {
+			"title04": "Link sikkerhedskopimappen til din data",
+			"description04a": "Find de data du vil sikkerhedskopiere",
+			"description04b": "Opret genveje til disse steder<br>(ved siden af underline kommandoen)"
+		},
+		"desc5": {
+			"title05": "Udfør underline kommandoen for at sikkerhedskopiere data ",
+			"description05": "Udfør <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> scriptet for at sikkerhedskopiere data<br>...eller automatiser det gennem opgavestyring"
+		}
+	}
+}

@@ -164,46 +164,47 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			
-			<!-- const languages = { -->
-				<!-- en: { -->
-					<!-- name: "English", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json" -->
-				<!-- },			 -->
+			/*
+			const languages = {
+				en: {
+					name: "English",
+					dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json"
+				},			
 				<!-- ge: { -->
 					<!-- name: "German", -->
 					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/ge.json" -->
 				<!-- }, -->
-				<!-- dk: { -->
-					<!-- name: "Danish", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json" -->
-				<!-- }, -->
+				dk: {
+					name: "Danish",
+					dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json"
+				},
 				<!-- de: { -->
 					<!-- name: "Dutch", -->
 					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/de.json" -->
 				<!-- }, -->
-				<!-- fr: { -->
-					<!-- name: "French", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json" -->
-				<!-- },	 -->
-			<!-- }; -->
-			
+				fr: {
+					name: "French",
+					dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json"
+				},	
+			};
+			*/
 			const languages = {
 				en: {
 					name: "English",
 					dictionary: "language/en.json"
 				},
-				ge: {
-					name: "German",
-					dictionary: "language/ge.json"
-				},
+				<!-- ge: { -->
+					<!-- name: "German", -->
+					<!-- dictionary: "language/ge.json" -->
+				<!-- }, -->
 				dk: {
 					name: "Danish",
 					dictionary: "language/dk.json"
 				},
-				de: {
-					name: "Dutch",
-					dictionary: "language/de.json"
-				},
+				<!-- de: { -->
+					<!-- name: "Dutch", -->
+					<!-- dictionary: "language/de.json" -->
+				<!-- }, -->
 				fr: {
 					name: "French",
 					dictionary: "language/fr.json"
@@ -236,7 +237,7 @@
 						
 					  	if (radio_lang.checked)
 						{
-							document.getElementById('lang-' + langs[(i + 1) % llangs]).click();
+							document.getElementById(next_lang).click();
 							return;
 						}
 					} 

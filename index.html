@@ -44,7 +44,6 @@
 			  opacity: 0.1;
 			}
 		</style>
-
 	</head>
 	<body>
 		<div class="reveal">
@@ -56,11 +55,11 @@
 						<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
-					<h3 id="title" data-i18n="title01">Data synchronization tool for Windows</h3>
+					<h4 id="title" data-i18n="title01">Data synchronization tool for Windows</h4>
 					<div id="langselector" class="langchooser">
 						<input id="lang-en" type="radio" name="menulangradios" style="display: none;" value="en" checked>
 						<input id="lang-ge" type="radio" name="menulangradios" style="display: none;" value="ge">
-						<input id="lang-dk" type="radio" name="menulangradios" style="display: none;" value="dk">
+						<input id="lang-dk" type="radio" name="menulangradios" style="display: none;" value="dk">	
 						<input id="lang-de" type="radio" name="menulangradios" style="display: none;" value="de">
 						<input id="lang-fr" type="radio" name="menulangradios" style="display: none;" value="fr">
 					</div>
@@ -68,7 +67,7 @@
 						<img src="./svg/uk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
 						<img src="./svg/ge.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-ge').click();return false;" class="nolangyet" >
 						<img src="./svg/dk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-dk').click();return false;">
-						<img src="./svg/nl.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-de').click();return false;" class="nolangyet" >
+						<img src="./svg/de.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-de').click();return false;" class="nolangyet" >
 						<img src="./svg/fr.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
 					</div>
 	
@@ -81,9 +80,9 @@
 						<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
-						<h4 data-i18n="title02">
-							No installation required - Data backups made simple
-						</h4>
+					<h4 data-i18n="title02">
+						No installation required - Data backups made simple
+					</h4>
 					<div class="parent">
 						<div>
 							<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
@@ -92,10 +91,11 @@
 							<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 0 auto; background: transparent;" class="box0">
 						</div>
 					</div>
+					<p><a href="https://github.com/gdepoyant/underline" target="_blank"><img src="./svg/git.svg" style="height: 30px;"></a></p>
 				</section>
 				<section data-auto-animate id="desc3">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
-					<h3 data-id="console" data-i18n="title03">Place the underline command in the backup folder</h3>
+					<h4 data-id="console" data-i18n="title03">Place the underline script in the backup folder</h4>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape data-trim class="lang-less">
 							G:\
@@ -111,7 +111,7 @@
 				</section>
 				<section data-auto-animate id="desc4">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
-					<h3 data-id="console" data-i18n="title04">Link the backup folder to the data</h3>
+					<h4 data-id="console" data-i18n="title04">Link the backup folder to the data</h4>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape data-trim class="lang-less">
 							G:\
@@ -126,12 +126,12 @@
 						Locate the data you want to backup
 					</blockquote>
 					<blockquote data-i18n="description04b">
-						Create shortcuts to these locations<br/>(alongside the underline command)
+						Create shortcuts to these locations<br/>(alongside the underline script)
 					</blockquote>
 				</section>
 				<section data-auto-animate id="desc5">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
-					<h3 data-id="console" data-i18n="title05">Execute the underline command to backup data</h3>
+					<h4 data-id="console" data-i18n="title05">Execute the underline script to backup data</h4>
 					<pre data-id="console-animation">
 						<code data-trim data-noescape class="lang-less">
 							G:\
@@ -163,83 +163,96 @@
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
+			
+			<!-- const languages = { -->
+				<!-- en: { -->
+					<!-- name: "English", -->
+					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json" -->
+				<!-- },			 -->
+				<!-- ge: { -->
+					<!-- name: "German", -->
+					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/ge.json" -->
+				<!-- }, -->
+				<!-- dk: { -->
+					<!-- name: "Danish", -->
+					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json" -->
+				<!-- }, -->
+				<!-- de: { -->
+					<!-- name: "Dutch", -->
+					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/de.json" -->
+				<!-- }, -->
+				<!-- fr: { -->
+					<!-- name: "French", -->
+					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json" -->
+				<!-- },	 -->
+			<!-- }; -->
+			
+			const languages = {
+				en: {
+					name: "English",
+					dictionary: "language/en.json"
+				},
+				ge: {
+					name: "German",
+					dictionary: "language/ge.json"
+				},
+				dk: {
+					name: "Danish",
+					dictionary: "language/dk.json"
+				},
+				de: {
+					name: "Dutch",
+					dictionary: "language/de.json"
+				},
+				fr: {
+					name: "French",
+					dictionary: "language/fr.json"
+				},
+			};
+
+			const langs = Object.keys(languages);
+
 			Reveal.initialize({
+				makejson: true,
 				hash: true,
 
-				    internation: {
-						languages: {
-							fr: {
-								name: "French",
-								dictionary: "language/fr.json"
-							},
-							en: {
-								name: "English",
-								dictionary: "language/en.json"
-							},
-							
-							ge: {
-								name: "German",
-								dictionary: "language/ge.json"
-							},
-							dk: {
-								name: "Danish",
-								dictionary: "language/dk.json"
-							},
-							
-							nl: {
-								name: "Dutch",
-								dictionary: "language/nl.json"
-							},
-						},
+					internation: {
+						languages: languages
 					},
-
-				    <!-- internation: { -->
-						<!-- languages: { -->
-							<!-- fr: { -->
-								<!-- name: "French", -->
-								<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json" -->
-							<!-- }, -->
-							<!-- en: { -->
-								<!-- name: "English", -->
-								<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json" -->
-							<!-- }, -->
-							
-							<!-- ge: { -->
-								<!-- name: "German", -->
-								<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/ge.json" -->
-							<!-- }, -->
-							<!-- dk: { -->
-								<!-- name: "Danish", -->
-								<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json" -->
-							<!-- }, -->
-							
-							<!-- nl: { -->
-								<!-- name: "Dutch", -->
-								<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/nl.json" -->
-							<!-- }, -->
-						<!-- }, -->
-					<!-- }, -->
 
 				// Learn about plugins: https://revealjs.com/plugins/
 
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
 			});
-
+			
 			document.addEventListener("keydown", function(event) {
 				if (event.code === "KeyG")
 				{
-					if (document.getElementById('lang-en').checked)
-					{
-						document.getElementById('lang-dk').click(); return false;
-					}
-					if (document.getElementById('lang-dk').checked)
-					{
-						document.getElementById('lang-fr').click();return false;
-					}
-					if (document.getElementById('lang-fr').checked)
-					{
-						document.getElementById('lang-en').click();return false;
-					}
+					llangs = langs.length
+					for (let i = 0; i < llangs; i++) {
+						const current_lang = 'lang-' + langs[i]
+						const next_lang = 'lang-' + langs[(i + 1) % llangs]
+						const radio_lang = document.getElementById(current_lang)
+						
+					  	if (radio_lang.checked)
+						{
+							document.getElementById('lang-' + langs[(i + 1) % llangs]).click();
+							return;
+						}
+					} 
+				
+					<!-- if (document.getElementById('lang-en').checked) -->
+					<!-- { -->
+						<!-- document.getElementById('lang-dk').click(); return false; -->
+					<!-- } -->
+					<!-- if (document.getElementById('lang-dk').checked) -->
+					<!-- { -->
+						<!-- document.getElementById('lang-fr').click();return false; -->
+					<!-- } -->
+					<!-- if (document.getElementById('lang-fr').checked) -->
+					<!-- { -->
+						<!-- document.getElementById('lang-en').click();return false; -->
+					<!-- } -->
 				}
 			});
 

@@ -64,7 +64,7 @@
 					<div class="r-hstack justify-center">
 						<img src="./svg/uk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
 						<img src="./svg/ge.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-ge').click();return false;" class="nolangyet" >
-						<img src="./svg/dk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-dk').click();return false;" class="nolangyet" >
+						<img src="./svg/dk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-dk').click();return false;">
 						<img src="./svg/nl.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-de').click();return false;" class="nolangyet" >
 						<img src="./svg/fr.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
 					</div>
@@ -227,7 +227,11 @@
 				{
 					if (document.getElementById('lang-en').checked)
 					{
-						document.getElementById('lang-fr').click(); return false;
+						document.getElementById('lang-dk').click(); return false;
+					}
+					if (document.getElementById('lang-dk').checked)
+					{
+						document.getElementById('lang-fr').click();return false;
 					}
 					if (document.getElementById('lang-fr').checked)
 					{

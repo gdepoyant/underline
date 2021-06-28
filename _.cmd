@@ -25,15 +25,15 @@ if(!(test-path $logsDir))
 Get-ChildItem . -Exclude $Excludes | ForEach-Object {
 
 	$fullname = $_.FullName
-	$targetpath = ($sh.CreateShortcut($fullname).TargetPath)
-	$targetname = (Split-Path $targetpath -leaf)
-	$targetisdir = (Test-Path -Path $targetpath -PathType Container)
+	$targetpath = $sh.CreateShortcut($fullname).TargetPath
+	$targetname = Split-Path ($targetpath -Replace "\\\\", "") -Leaf
+	$targetisdir = Test-Path -Path $targetpath -PathType Container
 	$logfile = (Join-Path $logsDir $targetname) + ".log"
 
 	if(!($targetisdir))
 	{
 		$parent = (Split-Path $targetpath -Parent)
-		robocopy  /s /z /j /np /ndl /tee /log+:$logfile $parent $backupDir $targetname /xd $scriptDir
+		robocopy /s /z /j /np /ndl /tee /log+:$logfile $parent $backupDir $targetname /xd $scriptDir
 	}
 	else
 	{

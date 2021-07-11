@@ -8,17 +8,15 @@
 		},
 		"desc3": {
 			"title03": "Placer underline scriptet i mappen",
-			"description03a": "Download det nyeste <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script",
-			"description03b": "Gem det på en USB-nøgle (eller andre steder)<br>Lær at gøre dine data overflødige! "
+			"description03": "Download det nyeste <b>_.cmd</b> script<br/>Gem det på en USB-nøgle (eller andre steder)<br>Lær at gøre dine data overflødige! "
 		},
 		"desc4": {
 			"title04": "Link sikkerhedskopimappen til din data",
-			"description04a": "Find de data du vil sikkerhedskopiere",
-			"description04b": "Opret genveje til disse steder<br>(ved siden af underline scriptet)"
+			"description04": "Find de data du vil sikkerhedskopiere<br/>& opret genveje til disse steder<br>(ved siden af underline scriptet)"
 		},
 		"desc5": {
 			"title05": "Udfør underline scriptet for at kopiere din data",
-			"description05": "Udfør <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> scriptet for at sikkerhedskopiere data<br>...eller automatiser det gennem opgavestyring"
+			"description05": "Udfør <b>_.cmd</b> scriptet for at sikkerhedskopiere data<br/><br/>... eller automatiser det gennem opgavestyring"
 		}
 	}
 }

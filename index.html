@@ -12,40 +12,11 @@
 		
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">	
-		
-		<style>
-			.parent {
-			  position: relative;
-			}
-			.box0 {
-			  position: relative;
-			}
-			
-			.box1 {
-			  position: absolute;
-			  padding-top: 45px;
-			  padding-left: 20px;
-			}
-			.box2 {
-			  position: absolute;
-			  padding-top: 45px;
-			  padding-left: 55px;
-			}
-			.box3 {
-			  position: absolute;
-			  padding-top: 45px;
-			  padding-left: 90px;
-			}
-			.reveal blockquote {
-			  font-size: 24px;
-			  background: rgba(0, 0, 0, 0.05)
-			}
-			.nolangyet {
-			  opacity: 0.1;
-			}
-		</style>
+		<link rel="stylesheet" href="dist/custom.css">
+
 	</head>
 	<body>
+		<!-- <div class="reveal" style="background-image: url('./svg/uk.svg'); background-repeat: no-repeat; background-size: auto 100%; background-position: center;  background-opacity:10%"> -->
 		<div class="reveal">
 			<div class="slides">
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro1">
@@ -70,9 +41,7 @@
 						<img src="./svg/nl.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-nl').click();return false;">
 						<img src="./svg/fr.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
 					</div>
-	
 				</section>
-				
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro2">
 					<div class="r-hstack justify-center">
 						<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
@@ -93,63 +62,213 @@
 					</div>
 					<p><a href="https://github.com/gdepoyant/underline" target="_blank"><img src="./svg/git.svg" style="height: 30px;"></a></p>
 				</section>
-				<section data-auto-animate id="desc3">
+
+<!-- 
+
+				33333
+				    3
+				33333
+				    3
+				33333
+
+-->
+				<section data-auto-animate id="desc3" data-transition="fade-in slide-out">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title03">Place the underline script in the backup folder</h4>
-					<pre data-id="console-animation">
-						<code data-trim data-noescape data-trim class="lang-less">
-							G:\
-							└── _.cmd
-						</code>
-					</pre>
-					<blockquote data-i18n="description03a">
-						Download the latest <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd" target="_blank">_.cmd</a> script
-					</blockquote>
-					<blockquote data-i18n="description03b">
-						Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!
+					<div class="frame-browser">
+						<div class="container-browser-solo">
+							<div class="s01 tab0">
+								<ion-icon name="save-outline"></ion-icon>
+								Storage
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="document-text-outline"></ion-icon>
+								<a href="https://github.com/gdepoyant/underline/raw/main/_.cmd" target="_blank">_.cmd</a>
+							</div>
+						</div>
+						<div class="clear">
+						</div>
+					</div>
+					<blockquote data-i18n="description03" data-id="tips">
+						Download the latest <b>_.cmd</b> script<br/>Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!
 					</blockquote>
 				</section>
-				<section data-auto-animate id="desc4">
+<!-- 
+
+				4   4
+				4   4
+				44444
+				    4
+				    5
+
+-->
+				<section data-auto-animate id="desc4" data-transition="fade-in slide-out">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title04">Link the backup folder to the data</h4>
-					<pre data-id="console-animation">
-						<code data-trim data-noescape data-trim class="lang-less">
-							G:\
-							├── _.cmd
-							├── Documents ----->  C:\users\root\Documents\
-							├── Pictures ------>  C:\users\root\Pictures\
-							├── Backups ------->  D:\Backups\
-							└── todo.txt ------>  E:\storage\todo.txt
-						</code>
-					</pre>
-					<blockquote data-i18n="description04a">
-						Locate the data you want to backup
-					</blockquote>
-					<blockquote data-i18n="description04b">
-						Create shortcuts to these locations<br/>(alongside the underline script)
+					<div class="frame-browser">
+						<div class="container-browser">
+							<div class="s01 tab0">
+								<ion-icon name="desktop-outline"></ion-icon>
+								Computer
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="folder-open"></ion-icon>
+								Desktop
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="documents"></ion-icon>
+								Documents
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="download"></ion-icon>
+								Downloads
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="videocam"></ion-icon>
+								Medias
+							</div>
+							<div class="s01 tab0">
+								<ion-icon name="git-network-outline"></ion-icon>
+								Network
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="briefcase"></ion-icon>
+								Archives
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="cloud"></ion-icon>
+								Cloud data
+							</div>
+						</div>
+						<div class="container-browser centered">
+							<div class="s01 tab0 opa50">
+								<ion-icon name="save-outline"></ion-icon>
+								Storage
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="document-text-outline"></ion-icon>
+								<a href="https://github.com/gdepoyant/underline/raw/main/_.cmd" target="_blank">_.cmd</a>
+							</div>
+							<div class="s00 tab1">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="git-network-outline"></ion-icon> 
+								Archives
+							</div>
+							<div class="s00 tab1">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="desktop-outline"></ion-icon>
+								Documents
+							</div>
+							<div class="s00 tab1">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="desktop-outline"></ion-icon>
+								Medias
+							</div>
+						</div>
+						<div class="clear">
+						</div>
+					</div>
+					<blockquote data-i18n="description04" data-id="tips">
+						Locate the data you want to backup<br>& create shortcuts to these locations<br/>(alongside the underline script)
 					</blockquote>
 				</section>
-				<section data-auto-animate id="desc5">
+<!-- 
+
+				55555
+				5
+				55555
+				    5
+				55555
+
+-->
+				<section data-auto-animate id="desc5" data-transition="fade-in slide-out">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title05">Execute the underline script to backup data</h4>
-					<pre data-id="console-animation">
-						<code data-trim data-noescape class="lang-less">
-							G:\
-							├── _.cmd
-							├── Documents ----->  C:\users\root\Documents\
-							├── Pictures ------>  C:\users\root\Pictures\
-							├── Backups ------->  D:\Backups\
-							├── todo.txt ------>  E:\storage\todo.txt
-							└── _/
-							    ├── Documents/
-							    ├── Pictures/
-							    ├── Backups/
-							    └── todo.txt
-						</code>
-					</pre>
-					<blockquote data-i18n="description05">
-						Execute the <a href="https://github.com/gdepoyant/underline/raw/main/_.cmd" target="_blank">_.cmd</a> script to backup data<br/>...or automate it through planified tasks
+
+					<div class="frame-browser">
+						<div class="container-browser">
+							<div class="s01 tab0 opa50">
+								<ion-icon name="desktop-outline"></ion-icon>
+								Computer
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="folder-open"></ion-icon>
+								Desktop
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="documents"></ion-icon>
+								Documents
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="download"></ion-icon>
+								Downloads
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="videocam"></ion-icon>
+								Medias
+							</div>
+							<div class="s01 tab0 opa50">
+								<ion-icon name="git-network-outline"></ion-icon>
+								Network
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="briefcase"></ion-icon>
+								Archives
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon name="cloud"></ion-icon>
+								Cloud data
+							</div>
+						</div>
+
+						<div class="container-browser">
+							<div class="s01 tab0">
+								<ion-icon name="save-outline"></ion-icon>
+								Storage
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="document-text-outline"></ion-icon>
+								<a href="https://github.com/gdepoyant/underline/raw/main/_.cmd" target="_blank">_.cmd</a>
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="git-network-outline"></ion-icon> 
+								Archives
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="desktop-outline"></ion-icon>
+								Documents
+							</div>
+							<div class="s00 tab1 opa50">
+								<ion-icon class="shortcut" name="arrow-undo-circle-outline"></ion-icon>
+								<ion-icon name="desktop-outline"></ion-icon>
+								Medias
+							</div>
+							<div class="s00 tab1">
+								<ion-icon name="folder-open-outline"></ion-icon>
+								_
+							</div>
+							<div class="s00 tab2">
+								<ion-icon name="briefcase"></ion-icon>
+								Archives
+							</div>
+							<div class="s00 tab2">
+								<ion-icon name="folder"></ion-icon>
+								Documents
+							</div>
+							<div class="s00 tab2">
+								<ion-icon name="videocam"></ion-icon>
+								Medias
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+
+					<blockquote data-i18n="description05" data-id="tips">
+						Execute the <b>_.cmd</b> script to backup data<br/><br/>... or automate it through planified tasks
 					</blockquote>
+
 				</section>
 			</div>
 		</div>
@@ -159,35 +278,38 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script src="plugin/internation/internation.js"></script>
+
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
+
+			// const languages = {
+			// 	en: {
+			// 		name: "English",
+			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json"
+			// 	},			
+			// 	de: {
+			// 		name: "German",
+			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/de.json"
+			// 	},
+			// 	dk: {
+			// 		name: "Danish",
+			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json"
+			// 	},
+			// 	nl: {
+			// 		name: "Dutch",
+			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/nl.json"
+			// 	},
+			// 	fr: {
+			// 		name: "French",
+			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json"
+			// 	},	
+			// };
 			
-			/*
-			const languages = {
-				en: {
-					name: "English",
-					dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json"
-				},			
-				<!-- ge: { -->
-					<!-- name: "German", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/ge.json" -->
-				<!-- }, -->
-				<!-- dk: { -->
-					<!-- name: "Danish", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/dk.json" -->
-				<!-- }, -->
-				<!-- nl: { -->
-					<!-- name: "Dutch", -->
-					<!-- dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/nl.json" -->
-				<!-- }, -->
-				fr: {
-					name: "French",
-					dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json"
-				},	
-			};
-			*/
 			const languages = {
 				en: {
 					name: "English",
@@ -210,7 +332,7 @@
 					dictionary: "language/fr.json"
 				},
 			};
-
+			
 			const langs = Object.keys(languages);
 
 			Reveal.initialize({
@@ -241,19 +363,20 @@
 							return;
 						}
 					} 
-				
-					<!-- if (document.getElementById('lang-en').checked) -->
-					<!-- { -->
-						<!-- document.getElementById('lang-dk').click(); return false; -->
-					<!-- } -->
-					<!-- if (document.getElementById('lang-dk').checked) -->
-					<!-- { -->
-						<!-- document.getElementById('lang-fr').click();return false; -->
-					<!-- } -->
-					<!-- if (document.getElementById('lang-fr').checked) -->
-					<!-- { -->
-						<!-- document.getElementById('lang-en').click();return false; -->
-					<!-- } -->
+					/*
+					if (document.getElementById('lang-en').checked)
+					{
+						document.getElementById('lang-dk').click(); return false;
+					}
+					if (document.getElementById('lang-dk').checked)
+					{
+						document.getElementById('lang-fr').click();return false;
+					}
+					if (document.getElementById('lang-fr').checked)
+					{
+						document.getElementById('lang-en').click();return false;
+					}
+					*/
 				}
 			});
 

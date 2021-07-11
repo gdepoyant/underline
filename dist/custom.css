@@ -1,0 +1,99 @@
+.frame-browser {
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 2%;
+  background: rgba(230, 230, 230, 0.849);
+  border-style: double;
+  border-width: thick;
+}
+
+.container-browser {
+  width: 50%;
+  float: left;
+  text-align: left;  
+}
+
+.container-browser-solo
+{
+  width: 50%;
+  margin-left: 28%;
+  text-align: left;  
+}
+
+.shortcut {
+  font-size: 60%;
+  margin-left: -7%;
+}
+
+.s00{
+  font-size: 50%;
+}
+
+.s01 {
+  font-size: 90%;
+  padding-top: 5%;
+}
+
+.opa50 {
+  opacity: 20%;
+}
+
+.tab0 {
+  margin-left: 22%;
+  margin-top: 2%;
+}
+
+.tab1 {
+  margin-left: 28%;
+}
+
+.tab2 {
+  margin-left: 34%;
+}
+
+.tab00 {
+  margin-left: 10%;
+}
+
+.tab01 {
+  margin-left: 18%;
+}
+
+.tab02 {
+  margin-left: 26%;
+}
+
+
+.clear { clear: both; }
+
+.parent {
+  position: relative;
+}
+.box0 {
+  position: relative;
+}
+
+
+.box1 {
+  position: absolute;
+  padding-top: 45px;
+  padding-left: 20px;
+}
+.box2 {
+  position: absolute;
+  padding-top: 45px;
+  padding-left: 55px;
+}
+.box3 {
+  position: absolute;
+  padding-top: 45px;
+  padding-left: 90px;
+}
+
+.reveal blockquote {
+  font-size: 24px;
+  background: rgba(0, 0, 0, 0.05)
+}
+.nolangyet {
+  opacity: 0.1;
+}

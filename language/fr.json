@@ -8,17 +8,15 @@
 		},
 		"desc3": {
 			"title03": "Placez le script dans le dossier de sauvegarde",
-			"description03a": "Téléchargez la dernière version du script <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a>",
-			"description03b": "Placez le sur une clé USB (ou n'importe où)<br>Apprenez à faire des copies de vos données!"
+			"description03": "Téléchargez la dernière version du script <b>_.cmd</b><br/>Placez le sur une clé USB (ou n'importe où)<br>Apprenez à faire des copies de vos données!"
 		},
 		"desc4": {
 			"title04": "Liez votre dossier de sauvegarde à vos données",
-			"description04a": "Localisez les données que vous souhaitez sauvegarder",
-			"description04b": "Créez des raccourcis vers les fichiers/dossiers désirés<br>(au même niveau que le script underline)"
+			"description04": "Localisez les données que vous souhaitez sauvegarder<br/>& créez des raccourcis vers les fichiers/dossiers désirés<br>(au même niveau que le script underline)"
 		},
 		"desc5": {
 			"title05": "Exécutez le script pour sauvegarder vos données",
-			"description05": "Exécutez le script <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> pour synchroniser vos données<br>...ou automatisez les synchronisations par les tâches planifiées"
+			"description05": "Exécutez le script <b>_.cmd</b> pour synchroniser vos données<br/><br/>... ou automatisez les synchronisations par les tâches planifiées"
 		}
 	}
 }

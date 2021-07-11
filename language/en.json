@@ -8,17 +8,15 @@
 		},
 		"desc3": {
 			"title03": "Place the underline script in the backup folder",
-			"description03a": "Download the latest <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script",
-			"description03b": "Place it on a USB stick (or elsewhere)<br>Learn to make your data redundant!"
+			"description03": "Download the latest <b>_.cmd</b> script<br/>Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!"
 		},
 		"desc4": {
 			"title04": "Link the backup folder to the data",
-			"description04a": "Locate the data you want to backup",
-			"description04b": "Create shortcuts to these locations<br>(alongside the underline script)"
+			"description04": "Locate the data you want to backup<br>& create shortcuts to these locations<br/>(alongside the underline script)"
 		},
 		"desc5": {
 			"title05": "Execute the underline script to backup data",
-			"description05": "Execute the <a href=\"https://github.com/gdepoyant/underline/raw/main/_.cmd\" target=\"_blank\">_.cmd</a> script to backup data<br>...or automate it through planified tasks"
+			"description05": "Execute the <b>_.cmd</b> script to backup data<br/><br/>... or automate it through planified tasks"
 		}
 	}
 }

@@ -8,15 +8,46 @@
 		},
 		"desc3": {
 			"title03": "Place the underline script in the backup folder",
-			"description03": "Download the latest <b>_.cmd</b> script<br/>Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!"
+			"description03": "Download the latest <b>_.cmd</b> script<br/>Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!",
+			"storage": "Storage"
 		},
 		"desc4": {
 			"title04": "Link the backup folder to the data",
-			"description04": "Locate the data you want to backup<br>& create shortcuts to these locations<br/>(alongside the underline script)"
+			"description04": "Locate the data you want to backup<br>& create shortcuts to these locations<br/>(alongside the underline script)",
+			"computer": "Computer",
+			"desktop": "Desktop",
+			"documents": "Documents",
+			"downloads": "Downloads",
+			"medias": "Medias",
+			"network": "Network",
+			"archives": "Archives",
+			"shareddata": "Shared data",
+			"storage": "Storage",
+			"archives1": "Archives",
+			"documents1": "Documents",
+			"medias1": "Medias",
+			"archives2": "Archives",
+			"documents2": "Documents",
+			"medias2": "Medias"
 		},
 		"desc5": {
 			"title05": "Execute the underline script to backup data",
-			"description05": "Execute the <b>_.cmd</b> script to backup data<br/><br/>... or automate it through planified tasks"
+			"description05": "Execute the <b>_.cmd</b> script to backup data<br/><br/>... or automate it through planified tasks",
+			"computer": "Computer",
+			"desktop": "Desktop",
+			"documents": "Documents",
+			"downloads": "Downloads",
+			"medias": "Medias",
+			"network": "Network",
+			"archives": "Archives",
+			"shareddata": "Shared data",
+			"storage": "Storage",
+			"archives1": "Archives",
+			"documents1": "Documents",
+			"medias1": "Medias",
+			"archives2": "Archives",
+			"documents2": "Documents",
+			"medias2": "Medias"
 		}
 	}
 }

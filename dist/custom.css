@@ -2,8 +2,13 @@
   width: 70%;
   margin-left: 15%;
   padding-bottom: 2%;
-  font-family: Consolas,monaco,monospace; 
+  font-family: Consolas; 
   /* background: rgba(230, 230, 230, 0.849); */
+}
+
+.frame-browser ion-icon
+{
+  vertical-align: middle;
 }
 
 .container-browser {
@@ -21,7 +26,7 @@
 
 .shortcut {
   font-size: 60%;
-  margin-left: -10%;
+  margin-left: -20%;
 }
 
 .s00{
@@ -29,8 +34,9 @@
 }
 
 .s01 {
-  font-size: 90%;
+  font-size: 80%;
   padding-top: 5%;
+  vertical-align: top;
 }
 
 .opa50 {
@@ -38,7 +44,7 @@
 }
 
 .tab0 {
-  margin-left: 22%;
+  margin-left: 20%;
   margin-top: 2%;
 }
 

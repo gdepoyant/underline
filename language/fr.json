@@ -8,15 +8,59 @@
 		},
 		"desc3": {
 			"title03": "Placez le script dans le dossier de sauvegarde",
-			"description03": "Téléchargez la dernière version du script <b>_.cmd</b><br/>Placez le sur une clé USB (ou n'importe où)<br>Apprenez à faire des copies de vos données!"
+			"description03": "Téléchargez la dernière version du script <b>_.cmd</b><br/>Placez le sur une clé USB (ou n'importe où)<br>Apprenez à faire des copies de vos données!",
+			"storage": "Stockage"
 		},
 		"desc4": {
 			"title04": "Liez votre dossier de sauvegarde à vos données",
-			"description04": "Localisez les données que vous souhaitez sauvegarder<br/>& créez des raccourcis vers les fichiers/dossiers désirés<br>(au même niveau que le script underline)"
+			"description04": "Localisez les données que vous souhaitez sauvegarder<br/>& créez des raccourcis vers les fichiers/dossiers désirés<br>(au même niveau que le script underline)",
+			"computer": "Ordinateur",
+			"desktop": "Bureau",
+			"documents": "Documents",
+			"downloads": "Téléchargements",
+			"medias": "Médias",
+			"network": "Réseaux",
+			"archives": "Archives",
+			"shareddata": "Documents partagés",
+			"storage": "Stockage",
+			"archives1": "Archives",
+			"documents1": "Documents",
+			"medias1": "Médias",
+			"archives2": "Archives",
+			"documents2": "Documents",
+			"medias2": "Médias"
 		},
 		"desc5": {
 			"title05": "Exécutez le script pour sauvegarder vos données",
-			"description05": "Exécutez le script <b>_.cmd</b> pour synchroniser vos données<br/><br/>... ou automatisez les synchronisations par les tâches planifiées"
+			"description05": "Exécutez le script <b>_.cmd</b> pour synchroniser vos données<br/><br/>... ou automatisez les synchronisations par les tâches planifiées",
+			"computer": "Ordinateur",
+			"desktop": "Bureau",
+			"documents": "Documents",
+			"downloads": "Téléchargements",
+			"medias": "Médias",
+			"network": "Réseaux",
+			"archives": "Archives",
+			"shareddata": "Documents partagés",
+			"storage": "Stockage",
+			"archives1": "Archives",
+			"documents1": "Documents",
+			"medias1": "Médias",
+			"archives2": "Archives",
+			"documents2": "Documents",
+			"medias2": "Médias"
 		}
 	}
 }
+
+"computer": "Computer",
+"desktop": "Desktop",
+"documents": "Documents",
+"downloads": "Downloads",
+"medias": "Medias",
+"network": "Network",
+"archives": "Archives",
+"shareddata": "Shared data",
+"storage": "Storage",
+"archives": "Archives",
+"documents": "Documents",
+"medias": "Medias",

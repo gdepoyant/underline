@@ -3,12 +3,11 @@
   margin-left: 15%;
   margin-bottom: 5%;
   font-family: Consolas; 
-  /* background: rgba(230, 230, 230, 0.849); */
 }
 
 .frame-browser ion-icon
 {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .container-browser {
@@ -17,16 +16,12 @@
   text-align: left;  
 }
 
-.container-browser-solo
-{
-  width: 50%;
-  margin-left: 28%;
-  text-align: left;  
+.frame-browser table td {
+  border: 0;
 }
 
 .shortcut {
   font-size: 60%;
-  margin-left: -9.5%;
 }
 
 .s00{
@@ -35,12 +30,11 @@
 
 .s01 {
   font-size: 80%;
-  padding-top: 2%;
   vertical-align: top;
 }
 
 .opa50 {
-  opacity: 40%;
+  opacity: 30%;
 }
 
 .tab0 {
@@ -67,7 +61,6 @@
 .tab02 {
   margin-left: 26%;
 }
-
 
 .clear { clear: both; }
 

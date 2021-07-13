@@ -8,15 +8,46 @@
 		},
 		"desc3": {
 			"title03": "Platze den underline Skript in den Sicherungsordner",
-			"description03a": "Lade den aktuellen <b>_.cmd</b> Skript runter<br/>Platze ihn auf ein Speicherstift (oder woanders)<br/>Lerne deine Daten redundant zu machen!"
+			"description03a": "Lade den aktuellen <b>_.cmd</b> Skript runter<br/>Platze ihn auf ein Speicherstift (oder woanders)<br/>Lerne deine Daten redundant zu machen!",
+			"storage": "Lager"
 		},
 		"desc4": {
 			"title04": "Verknüpfe die Daten im Sicherungsorder",
-			"description04": "Finde sicherungsnötige Daten<br/>& erstelle Verknüpfungen dahin im Sicherungsordner<br/>(neben dem underline Skript)"
+			"description04": "Finde sicherungsnötige Daten<br/>& erstelle Verknüpfungen dahin im Sicherungsordner<br/>(neben dem underline Skript)",
+			"computer": "Computer",
+			"desktop": "Desktop",
+			"documents": "Unterlagen",
+			"downloads": "Downloads",
+			"medias": "Medien",
+			"network": "Netzwerk",
+			"backups": "Sicherungen",
+			"shareddata": "Geteilte Daten",
+			"storage": "Lager",
+			"backups1": "Sicherungen",
+			"documents1": "Unterlagen",
+			"medias1": "Medien",
+			"backups2": "Sicherungen",
+			"documents2": "Unterlagen",
+			"medias2": "Medien"
 		},
 		"desc5": {
 			"title05": "Führe den underline Skript aus um die Daten zu sichern",
-			"description05": "Führe den <b>_.cmd</b> Skript manuell aus<br/><br/>... oder automasiere ihn!"
+			"description05": "Führe den <b>_.cmd</b> Skript manuell aus<br/><br/>... oder automasiere ihn!",
+			"computer": "Computer",
+			"desktop": "Desktop",
+			"documents": "Unterlagen",
+			"downloads": "Downloads",
+			"medias": "Medien",
+			"network": "Netzwerk",
+			"backups": "Sicherungen",
+			"shareddata": "Geteilte Daten",
+			"storage": "Lager",
+			"backups1": "Sicherungen",
+			"documents1": "Unterlagen",
+			"medias1": "Medien",
+			"backups2": "Sicherungen",
+			"documents2": "Unterlagen",
+			"medias2": "Medien"
 		}
 	}
 }

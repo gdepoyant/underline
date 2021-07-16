@@ -11,25 +11,38 @@
 }
 
 .container-browser {
-  width: 50%;
+  width: 40%;
   float: left;
-  text-align: left;  
+  text-align: left;
+  margin-left: 10%;
+}
+
+.container-browser-solo {
+  margin-left: 40%;
 }
 
 .frame-browser table td {
   border: 0;
 }
 
+.frame-browser table {
+  width: 100%;
+}
+
 .shortcut {
   font-size: 60%;
 }
 
+.a-right {
+  width: 10%;
+}
+
 .s00{
-  font-size: 50%;
+  font-size: 45%;
 }
 
 .s01 {
-  font-size: 80%;
+  font-size: 65%;
   vertical-align: top;
 }
 
@@ -39,7 +52,6 @@
 
 .tab0 {
   margin-left: 22%;
-  margin-top: 2%;
 }
 
 .tab1 {

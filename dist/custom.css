@@ -50,6 +50,12 @@
   opacity: 30%;
 }
 
+.selected-lang {
+  background-image: url("./svg/f1.svg");
+  /* background-color: cadetblue; */
+  padding: 5%;
+}
+
 .tab0 {
   margin-left: 22%;
 }
@@ -79,26 +85,43 @@
 .parent {
   position: relative;
 }
+
 .box1 {
   position: absolute;
   padding-top: 45px;
   padding-left: 20px;
+  height: 30px;
+  background: transparent;
 }
 .box2 {
   position: absolute;
   padding-top: 45px;
   padding-left: 55px;
+  height: 30px;
+  background: transparent;
 }
 .box3 {
   position: absolute;
   padding-top: 45px;
   padding-left: 90px;
+  height: 30px;
+  background: transparent;
+}
+
+.viz-ok {
+  visibility: visible;
+}
+
+.viz-ko {
+  visibility: hidden;
 }
 
 .reveal blockquote {
   font-size: 24px;
   background: rgba(0, 0, 0, 0.05)
 }
-.nolangyet {
-  opacity: 0.1;
+
+.fleft {
+  float: left;
 }
+

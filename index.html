@@ -9,20 +9,21 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/solarized.css">
-		
+
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">	
 		<link rel="stylesheet" href="dist/custom.css">
 
 	</head>
 	<body>
-<!-- 
+<!--
 				  1
 				 11
 				1 1
 				  1
 				11111
--->		<div class="reveal">
+-->
+		<div class="reveal">
 			<div class="slides">
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro1">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
@@ -32,22 +33,29 @@
 						<img data-id="box3" src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
 					<h4 id="title" data-i18n="title01">Data synchronization tool for Windows</h4>
-					<div id="langselector" class="langchooser">
-						<input id="lang-en" type="radio" name="menulangradios" style="display: none;" value="en" checked>
-						<input id="lang-de" type="radio" name="menulangradios" style="display: none;" value="de">
-						<input id="lang-dk" type="radio" name="menulangradios" style="display: none;" value="dk">
-						<input id="lang-nl" type="radio" name="menulangradios" style="display: none;" value="nl">
-						<input id="lang-fr" type="radio" name="menulangradios" style="display: none;" value="fr">
+					<div id="langselector" class="langchooser" style="display: none;">
+						<input id="lang-en" type="radio" name="menulangradios" value="en" checked>
+						<input id="lang-de" type="radio" name="menulangradios" value="de">
+						<input id="lang-dk" type="radio" name="menulangradios" value="dk">
+						<input id="lang-nl" type="radio" name="menulangradios" value="nl">
+						<input id="lang-fr" type="radio" name="menulangradios" value="fr">
+					</div>
+					<div class="r-hstack justify-center" class="lang">
+						<img id="flag-en" src="./svg/uk.svg" style="height: 60px; margin: 2rem auto 0rem auto;" onclick="document.getElementById('lang-en').click();highlightLang();">
+						<img id="flag-de" src="./svg/de.svg" style="height: 60px; margin: 2rem auto 0rem auto;" onclick="document.getElementById('lang-de').click();highlightLang();">
+						<img id="flag-dk" src="./svg/dk.svg" style="height: 60px; margin: 2rem auto 0rem auto;" onclick="document.getElementById('lang-dk').click();highlightLang();">
+						<img id="flag-nl" src="./svg/nl.svg" style="height: 60px; margin: 2rem auto 0rem auto;" onclick="document.getElementById('lang-nl').click();highlightLang();">
+						<img id="flag-fr" src="./svg/fr.svg" style="height: 60px; margin: 2rem auto 0rem auto;" onclick="document.getElementById('lang-fr').click();highlightLang();">
 					</div>
 					<div class="r-hstack justify-center">
-						<img src="./svg/uk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-en').click();return false;">
-						<img src="./svg/de.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-de').click();return false;">
-						<img src="./svg/dk.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-dk').click();return false;">
-						<img src="./svg/nl.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-nl').click();return false;">
-						<img src="./svg/fr.svg" style="height: 50px; margin: 4rem auto 4rem auto;" onclick="document.getElementById('lang-fr').click();return false;">
+						<img src="./svg/enter.svg" id="key-en" style="height: 40px; margin: 1rem auto 1rem auto;">
+						<img src="./svg/enter.svg" id="key-de" style="height: 40px; margin: 1rem auto 1rem auto;">
+						<img src="./svg/enter.svg" id="key-dk" style="height: 40px; margin: 1rem auto 1rem auto;">
+						<img src="./svg/enter.svg" id="key-nl" style="height: 40px; margin: 1rem auto 1rem auto;">
+						<img src="./svg/enter.svg" id="key-fr" style="height: 40px; margin: 1rem auto 1rem auto;">
 					</div>
 				</section>
-<!-- 
+<!--
 				22222
 				    2
 				22222
@@ -66,15 +74,15 @@
 					</h4>
 					<div class="parent">
 						<div>
-							<img data-id="box1" src="./svg/folder.svg" style="height: 30px; background: transparent;" class="box1">
-							<img data-id="box2" src="./svg/archive.svg" style="height: 30px; background: transparent;" class="box2">
-							<img data-id="box3" src="./svg/document.svg" style="height: 30px; background: transparent;" class="box3">
+							<img data-id="box1" src="./svg/folder.svg" class="box1">
+							<img data-id="box2" src="./svg/archive.svg" class="box2">
+							<img data-id="box3" src="./svg/document.svg" class="box3">
 							<img src="./svg/folder.svg" style="height: 140px; margin: 0 auto 0 auto; background: transparent;" class="parent">
 						</div>
 					</div>
 					<p><a href="https://github.com/gdepoyant/underline" target="_blank"><img src="./svg/git.svg" style="height: 30px;"></a></p>
 				</section>
-<!-- 
+<!--
 				33333
 				    3
 				33333
@@ -103,12 +111,12 @@
 						Download the latest <b>_.cmd</b> script<br/>Place it on a USB stick (or elsewhere)<br/>Learn to make your data redundant!
 					</blockquote>
 				</section>
-<!-- 
+<!--
 				4   4
 				4   4
 				44444
 				    4
-				    5
+				    4
 -->
 				<section data-auto-animate id="desc4" data-transition="fade-in slide-out">
 					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
@@ -184,7 +192,7 @@
 						Locate the data you want to backup<br>& create shortcuts to these locations<br/>(alongside the underline script)
 					</blockquote>
 				</section>
-<!-- 
+<!--
 				55555
 				5
 				55555
@@ -305,7 +313,7 @@
 			// 	en: {
 			// 		name: "English",
 			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/en.json"
-			// 	},			
+			// 	},
 			// 	de: {
 			// 		name: "German",
 			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/de.json"
@@ -321,7 +329,7 @@
 			// 	fr: {
 			// 		name: "French",
 			// 		dictionary: "https://raw.githubusercontent.com/gdepoyant/underline/main/language/fr.json"
-			// 	},	
+			// 	},
 			// };
 			
 			const languages = {
@@ -361,38 +369,63 @@
 
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
 			});
-			
+
+			function highlightLang() {
+				llangs = langs.length
+
+				for (let i = 0; i < llangs; i++) {
+					const current_lang = 'lang-' + langs[i]
+					const current_lang_radio = document.getElementById(current_lang)
+
+					const current_key_id = 'key-' + langs[i]
+					const current_key = document.getElementById(current_key_id)
+
+					const current_flag_id = 'flag-' + langs[i]
+					const current_flag = document.getElementById(current_flag_id)
+
+					if (current_lang_radio.checked)
+					{
+						current_key.style.visibility = "visible";
+						current_flag.style.opacity = 1.0;
+					}
+					else {
+						current_key.style.visibility = "hidden";
+						current_flag.style.opacity = 0.3;
+					}
+				}
+				return
+			}
+
 			document.addEventListener("keydown", function(event) {
-				if (event.code === "KeyG")
+				if (event.code === "Enter")
 				{
 					llangs = langs.length
+
 					for (let i = 0; i < llangs; i++) {
 						const current_lang = 'lang-' + langs[i]
+						const current_lang_radio = document.getElementById(current_lang)
 						const next_lang = 'lang-' + langs[(i + 1) % llangs]
-						const radio_lang = document.getElementById(current_lang)
-						
-					  	if (radio_lang.checked)
+						const next_radio = document.getElementById(next_lang)
+						const prev_lang = 'lang-' + langs[(i + llangs - 1) % llangs]
+						const prev_radio = document.getElementById(prev_lang)
+
+					  	if (current_lang_radio.checked)
 						{
-							document.getElementById(next_lang).click();
-							return;
+							if (event.shiftKey) {
+								document.getElementById(prev_lang).click();
+							}
+							else {
+								document.getElementById(next_lang).click();
+							}
+
+							highlightLang()
+							return
 						}
-					} 
-					/*
-					if (document.getElementById('lang-en').checked)
-					{
-						document.getElementById('lang-dk').click(); return false;
 					}
-					if (document.getElementById('lang-dk').checked)
-					{
-						document.getElementById('lang-fr').click();return false;
-					}
-					if (document.getElementById('lang-fr').checked)
-					{
-						document.getElementById('lang-en').click();return false;
-					}
-					*/
 				}
 			});
+
+			highlightLang();
 
 		</script>
 	</body>

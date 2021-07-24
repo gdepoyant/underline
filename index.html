@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="dist/custom.css">
 
 	</head>
-	<body>
+	<body id="body">
 <!--
 				  1
 				 11
@@ -26,7 +26,7 @@
 		<div class="reveal">
 			<div class="slides">
 				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)" id="intro1">
-					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
+					<h2><a href="javascript:void(0)" onclick="toggleFullscreen();">UNDERLINE</a></h2>
 					<div class="r-hstack justify-center">
 						<img data-id="box1" src="./svg/folder.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img data-id="box2" src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
@@ -68,7 +68,7 @@
 						<img src="./svg/archive.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 						<img src="./svg/document.svg" style="height: 140px; margin: 0 auto 4rem auto; background: transparent;">
 					</div>
-					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
+					<h2><a href="javascript:void(0)" onclick="toggleFullscreen();">UNDERLINE</a></h2>
 					<h4 data-i18n="title02">
 						No installation required - Data backups made simple
 					</h4>
@@ -90,7 +90,7 @@
 				33333
 -->
 				<section data-auto-animate id="desc3" data-transition="fade-in slide-out">
-					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
+					<h2><a href="javascript:void(0)" onclick="toggleFullscreen();">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title03">Place the underline script in the backup folder</h4>
 					<div class="frame-browser">
 						<div class="container-browser container-browser-solo">
@@ -119,7 +119,7 @@
 				    4
 -->
 				<section data-auto-animate id="desc4" data-transition="fade-in slide-out">
-					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
+					<h2><a href="javascript:void(0)" onclick="toggleFullscreen();">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title04">Link the backup folder to the data</h4>
 					<div class="frame-browser">
 						<div class="container-browser">
@@ -200,7 +200,7 @@
 				55555
 -->
 				<section data-auto-animate id="desc5" data-transition="fade-in slide-out">
-					<h2><a href="https://github.com/gdepoyant/underline" target="_blank">UNDERLINE</a></h2>
+					<h2><a href="javascript:void(0)" onclick="toggleFullscreen();">UNDERLINE</a></h2>
 					<h4 data-id="console" data-i18n="title05">Execute the underline script to backup data</h4>
 					<div class="frame-browser">
 						<div class="container-browser">
@@ -308,6 +308,26 @@
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
+
+			document.addEventListener ('keydown', function (event){ 
+				console.log (event.which); 
+			});  
+			
+			var evt_screen = new KeyboardEvent('keydown', {'keyCode':70, 'which':70});
+			// var evt_escape = new KeyboardEvent('keydown', {'keyCode':27, 'which':27});
+			
+			var fullscreen = Boolean(false)
+
+			function toggleFullscreen() {
+				if (fullscreen) {
+					document.dispatchEvent (evt_escape);
+				}
+				else {
+					document.dispatchEvent (evt_screen);
+				}
+			
+				// fullscreen = !fullscreen;
+			}
 
 			// const languages = {
 			// 	en: {
@@ -424,12 +444,6 @@
 					}
 				}
 			});
-
-			window.onload=function(){
-				setTimeout(function() {
-					window.scrollTo(0, 1)
-				}, 0);
-			};
 
 			highlightLang();
 
